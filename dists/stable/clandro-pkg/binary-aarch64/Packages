@@ -1,0 +1,155 @@
+Package: cmocka
+Version: 2.0.2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 404
+Filename: pool/clandro-pkg/cmocka_2.0.2_aarch64.deb
+Size: 48540
+MD5sum: 1a9e0ae83ed62191a7c62561b497c0f2
+SHA1: 42e22c391ebd5b2410ae9cc3c2cba65cb554b8a7
+SHA256: 81e7e9d1428e592c28e61399c6d82ad971613112335703e3da45cf82166c485d
+Homepage: https://cmocka.org/
+Description: cmocka is an unit testing framework for C
+
+Package: dnsutils
+Version: 9.20.22
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 6872
+Depends: cmocka, json-c, krb5, libandroid-execinfo, libandroid-glob, libcap, libnghttp2, liburcu, libuv, libxml2, openssl, readline, resolv-conf, zlib
+Breaks: dnsutils-dev
+Replaces: dnsutils-dev
+Filename: pool/clandro-pkg/dnsutils_9.20.22_aarch64.deb
+Size: 1700804
+MD5sum: 991764b941b4f3bfb33cc5c69e575e61
+SHA1: 329c7af9bff06d19fac516a6bf5d0226109bee23
+SHA256: bc358dbf95ecdb9503ad45c6b61b3e0254f994737a9b26aa9351380ad93f16e8
+Homepage: https://www.isc.org/bind/
+Description: Clients provided with BIND
+
+Package: libnspr
+Version: 4.39
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1060
+Filename: pool/clandro-pkg/libnspr_4.39_aarch64.deb
+Size: 180912
+MD5sum: 25f9ed305ecefa57925bf9ec422d04b1
+SHA1: f7d18024b42a883129f14e7dd4097dbbc3f3ce53
+SHA256: 5d152b165f91698b27cbc7673e2c17ab11b4232e22a054096d2ade1796bb469e
+Homepage: https://hg.mozilla.org/projects/nspr
+Description: Netscape Portable Runtime (NSPR)
+
+Package: libnspr-static
+Version: 4.39
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 2076
+Depends: libnspr (= 4.39)
+Filename: pool/clandro-pkg/libnspr-static_4.39_aarch64.deb
+Size: 394808
+MD5sum: 8a9121cc2039f3bf09618d9d7a9d403c
+SHA1: f449814301600dff20ee9a79ef8296c680c7f575
+SHA256: 678fbfa6e21ec23dd79416e678cdebbe0f6a538f9e424bc9f50aa2b5a6f17ec2
+Homepage: https://hg.mozilla.org/projects/nspr
+Description: Static libraries for libnspr
+
+Package: libnss
+Version: 3.123.1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 9732
+Depends: libnspr, libsqlite
+Filename: pool/clandro-pkg/libnss_3.123.1_aarch64.deb
+Size: 1899848
+MD5sum: e837ed260d241da1626da3c21ff2e4fe
+SHA1: f8297c9d2910ff964f407979f09c2b171e6fbdf5
+SHA256: 98914c42f06da1d846678393c150dce4c012e6d27c0865a555af30a9296e9ee7
+Homepage: https://firefox-source-docs.mozilla.org/security/nss/
+Description: Network Security Services (NSS)
+
+Package: liburcu
+Version: 0.15.6
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1384
+Filename: pool/clandro-pkg/liburcu_0.15.6_aarch64.deb
+Size: 122532
+MD5sum: 7399d1c23f450426cf258e1fb6ecf291
+SHA1: 55b32617b366d289958dd19699c9bbe0336a35f5
+SHA256: 7920710a9464e90b557bd196413d40eb8b5513c7601872110618430ec8aec2f1
+Homepage: https://liburcu.org/
+Description: LGPLv2.1 userspace RCU (read-copy-update) library
+
+Package: liburcu-static
+Version: 0.15.6
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 436
+Depends: liburcu (= 0.15.6)
+Filename: pool/clandro-pkg/liburcu-static_0.15.6_aarch64.deb
+Size: 44908
+MD5sum: 102fb8686637e87bfd0cec03d4add97a
+SHA1: d2db8dc66cc09f8519b36345e44a308e63dc7067
+SHA256: 7d4c235ee95fa03de439b7e6fd9dc47cff708d677e1964cd17efb78c188b8a0a
+Homepage: https://liburcu.org/
+Description: Static libraries for liburcu
+
+Package: nss-utils
+Version: 3.123.1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 7940
+Depends: zlib, libnss (= 3.123.1)
+Filename: pool/clandro-pkg/nss-utils_3.123.1_aarch64.deb
+Size: 1368380
+MD5sum: ecc6ced650f9040fa6d5c1aeb54eb51c
+SHA1: cadce69c3e1ef78e47319dd239433da0276604c4
+SHA256: c5d6548edaf298279449aefb083e34331e3a87c051b64aad945eae906aa02bfd
+Homepage: https://firefox-source-docs.mozilla.org/security/nss/
+Description: Tools for NSS
+
+Package: xmlsec
+Version: 1.3.11
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 2164
+Depends: libgcrypt, libxml2, libnspr, libnss, libxslt, openssl
+Breaks: xmlsec-dev
+Replaces: xmlsec-dev
+Filename: pool/clandro-pkg/xmlsec_1.3.11_aarch64.deb
+Size: 447336
+MD5sum: bcb7707648f5ddfaa56a8d2f98926b2e
+SHA1: 15f6a618534c5a5f77c05b50fa3248b196e9de92
+SHA256: 368781054c0b35c86e97b3fc3d4580f92dc188ebb17c4cbf09ca0141204c24de
+Homepage: https://www.aleksey.com/xmlsec/
+Description: XML Security Library
+
+Package: xmlsec-static
+Version: 1.3.11
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 2772
+Depends: xmlsec (= 1.3.11)
+Filename: pool/clandro-pkg/xmlsec-static_1.3.11_aarch64.deb
+Size: 322512
+MD5sum: e544fbffe3204b7ab9ef6f66f12723d5
+SHA1: 6d3a86db6faf948aef5d85f15476f5e90342f05a
+SHA256: fc9f7e3ed404969233ac795f4808a7ceaa39cd9cc1e18ec37e3a4796208eead8
+Homepage: https://www.aleksey.com/xmlsec/
+Description: Static libraries for xmlsec
+
+Package: xmlto
+Version: 0.0.29-2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 276
+Depends: xsltproc
+Filename: pool/clandro-pkg/xmlto_0.0.29-2_aarch64.deb
+Size: 21232
+MD5sum: ee19ff3b77f9d86b01c4584d6817339a
+SHA1: 63aa08ace4f0274db5fa252c79e24ac43fef7549
+SHA256: cd13fd1abbb3ab3da149068d2a4dcfcb616d9c26ac036bb0bbcb52e9d54a027e
+Homepage: https://pagure.io/xmlto/
+Description: Convert xml to many other formats
+

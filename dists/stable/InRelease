@@ -1,0 +1,41 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Origin: clandro-engine-packages-repo-2
+Label: clandro-engine-packages-repo-2
+Suite: stable
+Codename: stable
+Architectures: aarch64
+Components: b2b clandro-pkg
+Description: Secure Custom Package Repository for OpsPulse
+Date: Thu, 20 Aug 2026 16:26:24 +0000
+MD5Sum:
+ d41d8cd98f00b204e9800998ecf8427e 0 b2b/binary-aarch64/Packages
+ 0d400ff695d129f91ed42f9b83e93a60 29 b2b/binary-aarch64/Packages.gz
+ 8dc5aea5b03dff8595f096f9e368e888 32 b2b/binary-aarch64/Packages.xz
+ ac6aeeca1fc9150ff6d34e2201ee11fc 5029 clandro-pkg/binary-aarch64/Packages
+ 7f800285f62e9d712f28a7f4ad33fa08 1996 clandro-pkg/binary-aarch64/Packages.gz
+ c519f8cfaabc6187c7915e5f2d692863 1972 clandro-pkg/binary-aarch64/Packages.xz
+SHA256:
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 b2b/binary-aarch64/Packages
+ 6e0df7090cf473fe3d3ff5dd6b2029cfc399609fbd99f4c197ee701b77581ccc 29 b2b/binary-aarch64/Packages.gz
+ 0040f94d11d0039505328a90b2ff48968db873e9e7967307631bf40ef5679275 32 b2b/binary-aarch64/Packages.xz
+ f011446654c25637ad05fefe54198e0db6195be4404a229b4d4e56a2552e34a1 5029 clandro-pkg/binary-aarch64/Packages
+ 13cb8d355c8bef980f3143d5d6ace7a6de48be3cd1038c2abdaccfdec7b95235 1996 clandro-pkg/binary-aarch64/Packages.gz
+ 6ff6cd6a20a730345820c4e027272c6d9ee53ec11e9c1e23871655604e9aa611 1972 clandro-pkg/binary-aarch64/Packages.xz
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEEL/vD9vRlfdqH7tkS6jbSo3Yp7KYFAmqHKrAACgkQ6jbSo3Yp
+7KZJIw//TTLK+aTfvO4C6mWF14VLzTrsA3LBXBd+DDO+piCtI5A+1mGXcxj6fEF5
+ADbfMH7A7VM0hEPrRbdwv5TECg5yqsh/EeLEg1i2bk6IsPr+28xiMZW4mfEFKKBn
+3EqQgcixnLwxtLjDZ/Q8pJ18Jh3XD75Ck0z5otW7DSMWvlXbXS6BHRTtD35p/syA
+tPRsVIS8dhfMnua18MMxXpJWlVxSUFV0vGQId2A4haitKONCqmCN86MGFv+xAGHi
+lrmVb9VpFCa6svUeuODzjLBxYY25mqIGaUF5lZHkwX18TBApIom96Gx1jMcHt5J1
+koEXys2dk0iC6965wdbBMiBku845WfundAWS08oO+VRzr+J8JkNRk9jPH+8gfT37
+ZS0J4bgy3Iv1GFiyZAxMN5OGNVYzqsxSNvekPGy1TzW8kh0GGHRkF5o7+ULltHle
+ON/+h7mYxagCx6Vln0ixnfDnmS/2eXhAU3SBwbXH/SvR+sqUGI8F4Y2z0FJlnvQq
+r1JexZxXLkE2Zyf/pzsfRitFekMLUh2pAUWCg6dfOUC8EwvDzcD4RaALzx5KqzSs
+ehxJOzoo4QT7KfN9WLZoCoBNABFz/IrAl0tpYrWyT7LTunwhzIK3VxI+Nzx2wt8k
+H5U8frfpjB/G+7Lcdlhkca/FcEF1pG+c7Hso8ud9NxaUG/DV2pU=
+=K/j7
+-----END PGP SIGNATURE-----
