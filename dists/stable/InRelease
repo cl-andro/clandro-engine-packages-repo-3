@@ -8,34 +8,34 @@ Codename: stable
 Architectures: aarch64
 Components: b2b clandro-pkg
 Description: Secure Custom Package Repository for OpsPulse
-Date: Fri, 21 Aug 2026 04:40:51 +0000
+Date: Fri, 21 Aug 2026 04:58:56 +0000
 MD5Sum:
  d41d8cd98f00b204e9800998ecf8427e 0 b2b/binary-aarch64/Packages
- 2ed7672af6f98afd3d66f0a463251bbb 29 b2b/binary-aarch64/Packages.gz
+ 2256eac7f485b76befd560f16792541d 29 b2b/binary-aarch64/Packages.gz
  8dc5aea5b03dff8595f096f9e368e888 32 b2b/binary-aarch64/Packages.xz
- 420a50a0452e20fab2a5ad3454c8ba59 40003 clandro-pkg/binary-aarch64/Packages
- d3bf71d578508ed85d4e1fcc9f784f87 13398 clandro-pkg/binary-aarch64/Packages.gz
- 23d499aa5c2a91730d13c99a33ace055 12076 clandro-pkg/binary-aarch64/Packages.xz
+ eec332dda202fee11f2f3f471287e494 46430 clandro-pkg/binary-aarch64/Packages
+ 037dd3c9113f8e75294f28b4ab919bc7 15578 clandro-pkg/binary-aarch64/Packages.gz
+ 9f667cc29d375e28598b51784774bfd8 13964 clandro-pkg/binary-aarch64/Packages.xz
 SHA256:
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 b2b/binary-aarch64/Packages
- a404d034eafdf2f766399bf4c563be9b290ffe88492385cc3b154ee07950888a 29 b2b/binary-aarch64/Packages.gz
+ 180c06cc0874f74657154c3937e95387f82ab4870616522836cb9aef8557fd34 29 b2b/binary-aarch64/Packages.gz
  0040f94d11d0039505328a90b2ff48968db873e9e7967307631bf40ef5679275 32 b2b/binary-aarch64/Packages.xz
- 7cc62acd165b88de1ae7ce29f0eed92b5fb46068e1fc32fa97f226db9a2cf572 40003 clandro-pkg/binary-aarch64/Packages
- 5d72f0aa320c6cf682b2c0dd89ebd0c72e770a2da4d7171c63427af295ebb238 13398 clandro-pkg/binary-aarch64/Packages.gz
- 9df330918a9d0428a4f6050be15eed44e6153a58393a41b6f16e839628bcd5ae 12076 clandro-pkg/binary-aarch64/Packages.xz
+ 640090a8f04da9a2f45434691bf1045e835470470854bd48cef9e127ac7375b8 46430 clandro-pkg/binary-aarch64/Packages
+ 63283b2b16f173dbee111bc4d909dd353e65eee6ca5a6a07a9b3bce78e768bca 15578 clandro-pkg/binary-aarch64/Packages.gz
+ 01a1ad1f61af069f99b950cbf32298d90c56f75803094f104e1634f4faa6a21d 13964 clandro-pkg/binary-aarch64/Packages.xz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEL/vD9vRlfdqH7tkS6jbSo3Yp7KYFAmqH1tMACgkQ6jbSo3Yp
-7KZPHw/9G1uQH4wZ8zFb1n8BpSrXtB3ZDjf55uAowexpU0dH3cxvSSVaBGr+7nuN
-SFVtj7E8wbEYjZMyqKkY7xnpY/08D6yExRKghg4hUqoESDpDUOXHh9fORXrl1EWd
-wr35hmxfbVcOe8VsmJNf600YnyjMTmZ3Dav9lFrnYg6W9RfUSGO2UYaQV+9/TOn4
-NosiAoC7P0d3UlcAGHjva6aY7DMuyNlJ64CM3PuWW72ID76mmPza2MDb42EY6k1S
-8V8iM9kGpQQTgUpALD4kYIfBNRiS8R/0p0F7T5OAF4tKoAIvVOgOXmeKmHdFL2V/
-WBkZfjjVDanAsFyW5jZrVpwQ1v8IflZMCtdSBcRQ8MPUgvU5DIPWgdg1XbE92ryt
-S+SrCPxnP5d4ASCvR2g18OD3X7AloBXT/WN5qq1XHpsUySU9V59cjrY+ahgydWMk
-K57VEuWC3IYfImOtDWTBRiXcNyMF0/OrHfsGTu3Kro097VsEHwfwo58xNNAUw5ks
-58FKTJMkaNcGJqz9KvC2eNQL3zNC43Q5eWkLrOj2ELlZ+qH+ar4bc4jrKIjSlEHh
-3xALuGyCpGKVH0eHwbYz6IeJtzlwHwqGtCMPN5YIlBK0Bs/kghttMzVWgZFyyGf7
-3ZkkQTUjqH6i2S1t9aisU7Yhn5K7eoUP/uoOIRkIAML7oJXr/2I=
-=utNG
+iQIzBAEBCAAdFiEEL/vD9vRlfdqH7tkS6jbSo3Yp7KYFAmqH2xAACgkQ6jbSo3Yp
+7KZUWg/+JOg5arwmox9/v7XTX7U1Nc6d+N/dDs6J5dnSS48/NUhDSFXlZVmNKjRe
+hGRQ71/DoPZcJCYjBWoI7m6EgA39a6YonPWzxvNpvq9RBzcKTmGgU+oKmOhDChHn
+tcAmEWxy/UXDwMabcky+vFTt3GzGB+qbsdMkdZtrFGmvuCbp0UPG9t5a10fKpsGq
+ZLFikof7x97vPx0yAcqw5iyzZQik3feTsJxgdR8n1lTfqgiI0VZyPTk0brTekoSu
+7Uxv2iFW5IqYTMOKV374PdaaaxxA/Umsn76Q2NP0KRDZqF+pB/ZiOZnWjolyB9Sl
+GuEvKOekg8SKGj8cMpGOh8O3q1hC6S/oFCwSewOwCgkfiQxZ7hXp0nPjUJxau1VT
+NGedSOyVDt1i7p3v7J1Gsz2Pl7RSCXsAbbknTQ9Up26BXcffFphf+DyqOTreeDSB
+AHBCT8eUUXLD7oqpQ5ld3m51fEhNmnOWDKSRLtNVJY/By1PDOEsUlKrmP4cbEuRf
+e9TAw0rjLjFTMxe6ZH4iwC6AJKrm6BWw1I81MzLJbtAOJ9HHNHnx4+WEGTzICGhW
+VsPttBR2nAUV+IQYWrXVc9Ds06WcbCEEW5qhO630X/vBMdxc+GB0gxYpriScpqV3
+0581io4NnuX/36ECIfILBHD0wzKmYnSRZ4pVgqegCES4GPfkdz0=
+=PSNH
 -----END PGP SIGNATURE-----

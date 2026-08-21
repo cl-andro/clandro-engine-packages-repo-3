@@ -85,6 +85,48 @@ SHA256: 0ea7a45cd43f5f93c31da80b5da9a3dd3d6ff4c729ac4b4e305cda5fabc4886d
 Homepage: https://github.com/fribidi/fribidi/
 Description: Static libraries for fribidi
 
+Package: game-music-emu
+Version: 0.6.5
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 396
+Depends: libc++, zlib
+Filename: pool/clandro-pkg/game-music-emu_0.6.5_aarch64.deb
+Size: 128248
+MD5sum: 850c2c336ecdbe75684a74b6921685c6
+SHA1: e2da77231621f54e82824c27e09a8fef992e986f
+SHA256: 4500be70766c5d0e0ff15ea22b6aaf6952a792ff259691dc82678ffe3a23aaac
+Homepage: https://bitbucket.org/mpyne/game-music-emu/wiki/Home
+Description: A collection of video game music file emulators
+
+Package: game-music-emu-static
+Version: 0.6.5
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 656
+Depends: game-music-emu (= 0.6.5)
+Filename: pool/clandro-pkg/game-music-emu-static_0.6.5_aarch64.deb
+Size: 156768
+MD5sum: b0921dd51420c205216974f3022a4744
+SHA1: b4cec5f20eb703cd052d48dd5d3a2a581965fe27
+SHA256: ddf545f1165b9b84ad83167b2d8febd83966e758921b21e941a75535a7f4444f
+Homepage: https://bitbucket.org/mpyne/game-music-emu/wiki/Home
+Description: Static libraries for game-music-emu
+
+Package: glslang
+Version: 16.3.0
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 16000
+Depends: libc++
+Filename: pool/clandro-pkg/glslang_16.3.0_aarch64.deb
+Size: 2437544
+MD5sum: 78b4954481a84b173ca9a5e865efc740
+SHA1: 40db606202d55dd1baadf288d8f363d3f38d2ff2
+SHA256: 979dffe5bad3e48e5abf162be9c4133aa8ff05d0435c2625445fd4d304f0a910
+Homepage: https://github.com/KhronosGroup/glslang
+Description: OpenGL and OpenGL ES shader front end and validator
+
 Package: harfbuzz
 Version: 14.2.0
 Architecture: aarch64
@@ -307,6 +349,39 @@ SHA256: 120430a0e81057d8f145ba9129565e02af87403f7a719500b924d464aef54cbd
 Homepage: https://cairographics.org
 Description: Cairo 2D vector graphics library
 
+Package: libglvnd
+Version: 1.7.0-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 3260
+Depends: libc++, libx11, libxext
+Recommends: mesa
+Conflicts: libmesa, mesa (<< 22.3.3-2), ndk-sysroot (<= 25b)
+Breaks: mesa (<< 22.3.3-2)
+Replaces: libmesa, mesa (<< 22.3.3-2)
+Filename: pool/clandro-pkg/libglvnd_1.7.0-1_aarch64.deb
+Size: 174932
+MD5sum: ff477faaf097053b8aaceb6b0775db44
+SHA1: 871203ee9fc678b370009bc9965a121257ffb43a
+SHA256: 6577c45ab85cd1c90765291115f7bf75b414ec8f4d7816ca476cda38ea64f20d
+Homepage: https://gitlab.freedesktop.org/glvnd/libglvnd
+Description: The GL Vendor-Neutral Dispatch library
+
+Package: libglvnd-dev
+Version: 1.7.0-1
+Architecture: all
+Maintainer: @clandro
+Installed-Size: 2316
+Breaks: mesa (<< 22.3.3-2), mesa-dev (<< 22.3.3-2), ndk-sysroot (<< 25b-3)
+Replaces: mesa (<< 22.3.3-2), mesa-dev (<< 22.3.3-2), ndk-sysroot (<< 25b-3)
+Filename: pool/clandro-pkg/libglvnd-dev_1.7.0-1_all.deb
+Size: 150216
+MD5sum: 4e5ec246c52532e4b88de9b50128eeec
+SHA1: d5e5d0fa81e23da97a4c64a62fe611d6be973876
+SHA256: 35876289d72401f342bdc7c18ddb535d5e29b97268406664dbddd51639d2ce51
+Homepage: https://gitlab.freedesktop.org/glvnd/libglvnd
+Description: GLVND's OpenGL headers
+
 Package: libgraphite
 Version: 1.3.14-3
 Architecture: aarch64
@@ -352,6 +427,35 @@ SHA1: 86d4634375bd98b02d87f0b6020540bea2d07ff5
 SHA256: 0b3ef10e90830c3a63e70f6d3afcaea15bd6e2f3b6a94efa134e81d3d726e994
 Homepage: http://www.ece.uvic.ca/~frodo/jasper/
 Description: JPEG-2000 utilities
+
+Package: libjxl
+Version: 0.11.2-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 7296
+Depends: brotli, giflib, glib, libc++, libffi, libiconv, libjpeg-turbo, libpng, zlib
+Suggests: gdk-pixbuf
+Filename: pool/clandro-pkg/libjxl_0.11.2-1_aarch64.deb
+Size: 1206176
+MD5sum: c7070153a02c32f5e426d41fc79b5bfd
+SHA1: 42e551a973c07c9f23da415ce5cbf0d9f4bea794
+SHA256: 1cf8828491c5d1e37f94f26cf025014475e52d5935844dcabc93066515c806a9
+Homepage: https://jpegxl.info/
+Description: JPEG XL image format reference implementation
+
+Package: libjxl-progs
+Version: 0.11.2-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 8824
+Depends: giflib, imath, libandroid-glob, libandroid-spawn, libjpeg-turbo, libpng, libwebp, openexr, libjxl (= 0.11.2-1)
+Filename: pool/clandro-pkg/libjxl-progs_0.11.2-1_aarch64.deb
+Size: 1285168
+MD5sum: b2c2b22c5237c89b237ecd3bc857dd21
+SHA1: 0a95291ca52cc2e81ab72b902689ca503bb10fec
+SHA256: 29ba36c6a18802bbb34e90e64e91d6476552c174665aab1903fb5a9246bed3e7
+Homepage: https://jpegxl.info/
+Description: Programs for manipulating JPEG XL files
 
 Package: liblqr
 Version: 0.4.3-1
@@ -522,6 +626,20 @@ SHA1: 3ccea3ce3d20bbf089abef1f14599e656f03cb01
 SHA256: 306249baeaa84fc6b8536ae7e2614e7a9492619d5dbee20b96c41bf64444ef96
 Homepage: https://www.pixman.org/
 Description: Low-level library for pixel manipulation
+
+Package: libplacebo
+Version: 7.360.1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1568
+Depends: littlecms, glslang, python, vulkan-loader
+Filename: pool/clandro-pkg/libplacebo_7.360.1_aarch64.deb
+Size: 419636
+MD5sum: 10a41ba900bcc69ffbb9fc9dff9edb69
+SHA1: 0a83b5a2024b3df1156563f2db17d941988beb45
+SHA256: 5395b4081482c312d7cb1317f68ec9fbccdafe2802901b9bcd9930f2831a5a55
+Homepage: http://libplacebo.org/
+Description: Reusable library for GPU-accelerated video/image rendering
 
 Package: libraqm
 Version: 0.10.5
@@ -1093,6 +1211,33 @@ SHA256: c8bbe14ffc73b5b0eaec50ddfaa3dbb861492470d907b7732c12285105564ad9
 Homepage: https://drobilla.net/software/sord.html
 Description: A lightweight C library for storing RDF data in memory
 
+Package: spirv-headers
+Version: 1.4.341.0
+Architecture: all
+Maintainer: @clandro
+Installed-Size: 3768
+Filename: pool/clandro-pkg/spirv-headers_1.4.341.0_all.deb
+Size: 161228
+MD5sum: b079981ed963d2acad43e6171e28989f
+SHA1: 66919336a38db71d2f65f22a77f9a19d36e2feff
+SHA256: e9d7dbd986a577cf76f9707e91e7cce246e535dcffd436528aba75f8f413ca4c
+Homepage: https://github.com/KhronosGroup/SPIRV-Headers
+Description: SPIR-V Headers
+
+Package: spirv-tools
+Version: 1.4.341.0
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 38580
+Depends: libc++
+Filename: pool/clandro-pkg/spirv-tools_1.4.341.0_aarch64.deb
+Size: 3802224
+MD5sum: ab07faaeae5e010f03dfd6aaf5442704
+SHA1: e933d80326d87bf760b68a0246464235a1fa55c8
+SHA256: 795bd1ea7fe9ca9fd78a66f6ad5e7e815716ca6e4bc055c346d74d932ba7cf2d
+Homepage: https://github.com/KhronosGroup/SPIRV-Tools
+Description: SPIR-V Tools
+
 Package: srt-tools
 Version: 1.5.5
 Architecture: aarch64
@@ -1134,6 +1279,46 @@ SHA1: fcd90794a4ba1988e65f61394f358b6b33856266
 SHA256: f023daedf9b2e73610e46f958bd41145c5da1c56b4e84d3d02c88ac6c76f734b
 Homepage: https://www.vamp-plugins.org/
 Description: Static libraries for vamp-plugin-sdk
+
+Package: vulkan-headers
+Version: 1.4.351
+Architecture: all
+Maintainer: @clandro
+Installed-Size: 40628
+Filename: pool/clandro-pkg/vulkan-headers_1.4.351_all.deb
+Size: 1878716
+MD5sum: b9bc6df68b74b212956ddfb01943572e
+SHA1: 315d35f4e86603f76811dad5318a219955f17fac
+SHA256: 7281be94419a098be6fc69fbd37d3901a7732a98fca8e3eb05c2380f604043aa
+Homepage: https://github.com/KhronosGroup/Vulkan-Headers
+Description: Vulkan Header files and API registry
+
+Package: vulkan-loader
+Version: 0.0.3
+Architecture: all
+Maintainer: @clandro
+Installed-Size: 4
+Depends: vulkan-loader-generic | vulkan-loader-android
+Filename: pool/clandro-pkg/vulkan-loader_0.0.3_all.deb
+Size: 708
+MD5sum: a283b5785d10c07ce76d74e30165151b
+SHA1: 3c9431751522b1fe981617c276c339cf9555150d
+SHA256: 1610ac19f268d2dbc299164bd7299c6ff0858c8c4a0d04fe3984418c1ed9e826
+Homepage: https://github.com/termux/termux-packages
+Description: A metapackage that provides vulkan loader library
+
+Package: vulkan-loader-android
+Version: 29
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 88
+Filename: pool/clandro-pkg/vulkan-loader-android_29_aarch64.deb
+Size: 4980
+MD5sum: 25d26a9b889db26993a67b325ed99d80
+SHA1: a793a83ea8af62524f7471d64416660c9737ee40
+SHA256: 2f71c39dfc906cf054431f303bec854a307d33232d553b420b5590ab1cc693c7
+Homepage: https://source.android.com/devices/graphics/arch-vulkan
+Description: Vulkan Loader for Android
 
 Package: xmlsec
 Version: 1.3.11
