@@ -133,6 +133,76 @@ SHA256: 93d163f500f1bd1593933b9212b3df94d08e2130f34fa8183c178ab1484f0687
 Homepage: https://github.com/libass/libass
 Description: Static libraries for libass
 
+Package: libbluray
+Version: 1.4.1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 404
+Depends: fontconfig, freetype, libudfread, libxml2
+Filename: pool/clandro-pkg/libbluray_1.4.1_aarch64.deb
+Size: 110200
+MD5sum: e9f42daf0837fbd2ff368f13ecc5d936
+SHA1: 1db546a3af6364f12f834a9be335463aecf18c6a
+SHA256: 2738315ca0a1bbe46474ced8a1096e18d59cb9d19ec0f25f0dea85429585cd02
+Homepage: https://code.videolan.org/videolan/libbluray/
+Description: An open-source library designed for Blu-Ray Discs playback for media players
+
+Package: libbluray-static
+Version: 1.4.1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 2132
+Depends: libbluray (= 1.4.1)
+Filename: pool/clandro-pkg/libbluray-static_1.4.1_aarch64.deb
+Size: 418708
+MD5sum: 5f7cb3179d2089c4876a10472bd0f385
+SHA1: 4f6b14b51bfffc452081e356fe76c3add6e6c7ac
+SHA256: 55d728679ede739a325c41c4ca9e450027b9b02dc568c9d6e3aa80bccf2e340f
+Homepage: https://code.videolan.org/videolan/libbluray/
+Description: Static libraries for libbluray
+
+Package: libbluray-utils
+Version: 1.4.1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 60
+Depends: libbluray (= 1.4.1)
+Filename: pool/clandro-pkg/libbluray-utils_1.4.1_aarch64.deb
+Size: 7028
+MD5sum: 48cfaf1ecdb1dabc11bb423d8846239a
+SHA1: 514bc0fc18036d5daaafcb99bd400aa39845ec8f
+SHA256: 2507afe9cb05f1466527e7da2a73e547a1b40318d19edd1eee3fcb6ceee00009
+Homepage: https://code.videolan.org/videolan/libbluray/
+Description: Example utilities for libbluray
+
+Package: libbs2b
+Version: 3.1.0-2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 144
+Depends: libc++, libsndfile
+Filename: pool/clandro-pkg/libbs2b_3.1.0-2_aarch64.deb
+Size: 13568
+MD5sum: 6ed718079cde827864286c542c9dfab6
+SHA1: 0a39a3ab71170227724a64f14a0df5c5b09ecce8
+SHA256: 7f95075b3af6e8a3b878af4cdce0ac3a6c1e5048fde711eeae8cf3e692729fe3
+Homepage: https://bs2b.sourceforge.net/
+Description: Bauer stereophonic-to-binaural DSP
+
+Package: libbs2b-static
+Version: 3.1.0-2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 564
+Depends: libbs2b (= 3.1.0-2)
+Filename: pool/clandro-pkg/libbs2b-static_3.1.0-2_aarch64.deb
+Size: 45236
+MD5sum: 84d77c9c9b370156116a9e0f67e60107
+SHA1: f8b7c9435c55a55a8bf1edbe02b97ade1d538892
+SHA256: 0da42c6a2571e889b45aa970f1d247a81bfda22d1d459928193f262578f79b37
+Homepage: https://bs2b.sourceforge.net/
+Description: Static libraries for libbs2b
+
 Package: libcairo
 Version: 1.18.4-2
 Architecture: aarch64
@@ -164,6 +234,35 @@ SHA1: 4fe876b02b045b60349498afb42875ae9e5cc31c
 SHA256: 0c06ebc281304cc80c3355078e7b91b6854a9e7ae96507bd4a6e183ebeb49391
 Homepage: https://github.com/silnrsi/graphite
 Description: Font system for multiple languages
+
+Package: libmpg123
+Version: 1.33.3
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 624
+Breaks: mpg123 (<< 1.33.1-1)
+Replaces: mpg123 (<< 1.33.1-1)
+Filename: pool/clandro-pkg/libmpg123_1.33.3_aarch64.deb
+Size: 174204
+MD5sum: 727d1fc62a7936d3e76daa69fd759259
+SHA1: 08da21c7e728f5848cc658350c8db124cfbf3bd9
+SHA256: 35ad524f8f6c28ddc0a7f1128e0fb7573d21884eb778c97d48974ee1b19774bf
+Homepage: https://mpg123.org/
+Description: Fast console MPEG Audio Player and decoder library
+
+Package: libmpg123-static
+Version: 1.33.3
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 612
+Depends: libmpg123 (= 1.33.3)
+Filename: pool/clandro-pkg/libmpg123-static_1.33.3_aarch64.deb
+Size: 150988
+MD5sum: 2bc067b22df87586c704c579cab2c93e
+SHA1: 602d653644db73622827aeab574c827beb522e8d
+SHA256: 46f8069ef8fd65a914492d00c460732e8570aab0a9e320c35f2d4e2605c73553
+Homepage: https://mpg123.org/
+Description: Static libraries for libmpg123
 
 Package: libnspr
 Version: 4.39
@@ -205,6 +304,63 @@ SHA1: f8297c9d2910ff964f407979f09c2b171e6fbdf5
 SHA256: 98914c42f06da1d846678393c150dce4c012e6d27c0865a555af30a9296e9ee7
 Homepage: https://firefox-source-docs.mozilla.org/security/nss/
 Description: Network Security Services (NSS)
+
+Package: libopencore-amr
+Version: 0.1.6-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 308
+Breaks: libopencore-amr-dev
+Replaces: libopencore-amr-dev
+Filename: pool/clandro-pkg/libopencore-amr_0.1.6-1_aarch64.deb
+Size: 111708
+MD5sum: ec87912e39979817dc2924a8d847887e
+SHA1: d6957fdbf039b3bd266f174445ecd4b521f9d9cb
+SHA256: 7c6fbbb941edc52230cd0eba5d85ad9c4d4fbfd37417ebba7e227bb133deb67c
+Homepage: https://sourceforge.net/projects/opencore-amr/
+Description: Open source implementation of the Adaptive Multi Rate (AMR) speech codec
+
+Package: libopencore-amr-static
+Version: 0.1.6-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 544
+Depends: libopencore-amr (= 0.1.6-1)
+Filename: pool/clandro-pkg/libopencore-amr-static_0.1.6-1_aarch64.deb
+Size: 134196
+MD5sum: 08f09bed3d1675fc63f9c793112e6111
+SHA1: 6dac71dac0d80ae287423ab988ce36e1266f7427
+SHA256: 6d918ccca1a46463167297a4ba038f73cb908244f95ab052df7ab88eed66084c
+Homepage: https://sourceforge.net/projects/opencore-amr/
+Description: Static libraries for libopencore-amr
+
+Package: libopenmpt
+Version: 0.8.6
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1996
+Depends: libc++, libvorbis, libmpg123, zlib
+Filename: pool/clandro-pkg/libopenmpt_0.8.6_aarch64.deb
+Size: 542788
+MD5sum: 8943c33a0be135911f579aa4527cd713
+SHA1: bceabf19332266841a9a79bdfffe8af655a99131
+SHA256: 16e0ca89330fba41fa9468285d5db552251b15e78c8ff5ca776834a84a2cc08d
+Homepage: https://lib.openmpt.org/libopenmpt/
+Description: Library to render tracker music formats to a PCM audio stream
+
+Package: libopenmpt-static
+Version: 0.8.6
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 16684
+Depends: libopenmpt (= 0.8.6)
+Filename: pool/clandro-pkg/libopenmpt-static_0.8.6_aarch64.deb
+Size: 1394688
+MD5sum: fb20836a9811ec8ac162ed5254e722e0
+SHA1: 36e31db06c7f7fdfc6ffaa65573f894194d58dff
+SHA256: 9fa936c719c594051de5f2d5e94d591260604be3e35937d623d6e2ccf603c16e
+Homepage: https://lib.openmpt.org/libopenmpt/
+Description: Static libraries for libopenmpt
 
 Package: libpixman
 Version: 0.46.4-1
@@ -263,6 +419,33 @@ SHA256: 7e5bb80b8d7393773dca1dd191edbe4c319f0581bf34f5af2821caa6b52f9f4b
 Homepage: https://www.theora.org/
 Description: Static libraries for libtheora
 
+Package: libudfread
+Version: 1.2.0
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 116
+Filename: pool/clandro-pkg/libudfread_1.2.0_aarch64.deb
+Size: 14932
+MD5sum: f86c4510c1d7467503bf6e690047d8a2
+SHA1: 3da56f3bab4c4cbe076c9bf61a14a12bddcf3d8d
+SHA256: 9915edecd09d2e8993739e55fdc44d62d98ca34e147f0cc0941ab362b42621d6
+Homepage: https://code.videolan.org/videolan/libudfread/
+Description: A library for reading UDF
+
+Package: libudfread-static
+Version: 1.2.0
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 180
+Depends: libudfread (= 1.2.0)
+Filename: pool/clandro-pkg/libudfread-static_1.2.0_aarch64.deb
+Size: 36208
+MD5sum: abd8f95c8aad8fd8e8c3b0030aac578e
+SHA1: 97000cefd20fbe9c7ede8e389cb4ad534f73d6c8
+SHA256: c1af7a683e287cc918e9bb306365cb0cda12cf1e767f165213b7aab75b2f389f
+Homepage: https://code.videolan.org/videolan/libudfread/
+Description: Static libraries for libudfread
+
 Package: liburcu
 Version: 0.15.6
 Architecture: aarch64
@@ -289,6 +472,33 @@ SHA1: d2db8dc66cc09f8519b36345e44a308e63dc7067
 SHA256: 7d4c235ee95fa03de439b7e6fd9dc47cff708d677e1964cd17efb78c188b8a0a
 Homepage: https://liburcu.org/
 Description: Static libraries for liburcu
+
+Package: libvo-amrwbenc
+Version: 0.1.3-2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 172
+Filename: pool/clandro-pkg/libvo-amrwbenc_0.1.3-2_aarch64.deb
+Size: 52376
+MD5sum: 041f8c73fed531a7f08decb3361c9df7
+SHA1: 3748e9a97cb9e032fefd534d8ad54b8ef8aea2ef
+SHA256: 5b0ed5d3ef44ff3822c5ffa66699415da2e121bdc753b508c197802239b2d69a
+Homepage: https://sourceforge.net/projects/opencore-amr/
+Description: VisualOn AMR-WB encoder library
+
+Package: libvo-amrwbenc-static
+Version: 0.1.3-2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 208
+Depends: libvo-amrwbenc (= 0.1.3-2)
+Filename: pool/clandro-pkg/libvo-amrwbenc-static_0.1.3-2_aarch64.deb
+Size: 58180
+MD5sum: 9c842e1412963d6d2d3e6586e448ac94
+SHA1: d0a7d6a8c354b1b54a44b4500bb502d511abf3c2
+SHA256: 856452e785bd0ddfeeee287b29a9c028c66d2ef1425237e2366664ebb9f2d366
+Homepage: https://sourceforge.net/projects/opencore-amr/
+Description: Static libraries for libvo-amrwbenc
 
 Package: libvpx
 Version: 1:1.16.0
@@ -350,6 +560,20 @@ SHA256: 61a35d25273803fdb0494f5733c28dea946f87fe68b5fc4220a2a29ae895cfcc
 Homepage: https://zeromq.org/
 Description: Static libraries for libzmq
 
+Package: mpg123
+Version: 1.33.3
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 352
+Depends: pulseaudio, libmpg123 (= 1.33.3)
+Filename: pool/clandro-pkg/mpg123_1.33.3_aarch64.deb
+Size: 96244
+MD5sum: cb76b599d9e721971714d193ffecb494
+SHA1: e9c545180d3d7568a36399d1eee725f0337ce873
+SHA256: 0fd76e29b5537cc8fd800b6abe259acf99577032afbb4005b211285f00050aa6
+Homepage: https://mpg123.org/
+Description: Fast console MPEG Audio Player based on libmpg123
+
 Package: nss-utils
 Version: 3.123.1
 Architecture: aarch64
@@ -363,6 +587,22 @@ SHA1: cadce69c3e1ef78e47319dd239433da0276604c4
 SHA256: c5d6548edaf298279449aefb083e34331e3a87c051b64aad945eae906aa02bfd
 Homepage: https://firefox-source-docs.mozilla.org/security/nss/
 Description: Tools for NSS
+
+Package: openmpt123
+Version: 0.8.6
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 372
+Depends: libflac, libsndfile, pulseaudio, libopenmpt (= 0.8.6)
+Breaks: libopenmpt (<< 0.8.2-1)
+Replaces: libopenmpt (<< 0.8.2-1)
+Filename: pool/clandro-pkg/openmpt123_0.8.6_aarch64.deb
+Size: 97032
+MD5sum: d825feca54a727a7e81b54d3f7b3856c
+SHA1: 73618c588e35251cf77e62b99dc2835970b08b02
+SHA256: d312e8848996c5b7084894098ac3e45555a55f3ddf4d7bbad64eac7356b16c2d
+Homepage: https://lib.openmpt.org/libopenmpt/
+Description: libopenmpt based command-line player for tracker music formats
 
 Package: srt-tools
 Version: 1.5.5
