@@ -127,6 +127,36 @@ SHA256: 979dffe5bad3e48e5abf162be9c4133aa8ff05d0435c2625445fd4d304f0a910
 Homepage: https://github.com/KhronosGroup/glslang
 Description: OpenGL and OpenGL ES shader front end and validator
 
+Package: graphviz
+Version: 14.1.5
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 10640
+Depends: fontconfig, freetype, gdk-pixbuf, glib, harfbuzz, libandroid-glob, libc++, libcairo, libexpat, libgd, libgts, libltdl, librsvg, libwebp, pango, zlib
+Breaks: graphviz-dev
+Replaces: graphviz-dev
+Filename: pool/clandro-pkg/graphviz_14.1.5_aarch64.deb
+Size: 3000312
+MD5sum: 61dab2aad4f2be87468c9fd3587c5de1
+SHA1: ac794453077eb5b9acee9c3c9c95110482668cad
+SHA256: cfa7f1bbc8d94e58cc94082cbc4ebe472482489f984179e53994e28805c05ab3
+Homepage: https://www.graphviz.org/
+Description: Rich set of graph drawing tools
+
+Package: graphviz-static
+Version: 14.1.5
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 4156
+Depends: graphviz (= 14.1.5)
+Filename: pool/clandro-pkg/graphviz-static_14.1.5_aarch64.deb
+Size: 762824
+MD5sum: edab79960a3a769e0e9a953ba3bdca70
+SHA1: b942aa42cbba6b93afdb751ecfb215ba4c6f0ec2
+SHA256: 9f654c9ce625e183412c0c438395f7345e4642f5da0048a526fecb045ac315c5
+Homepage: https://www.graphviz.org/
+Description: Static libraries for graphviz
+
 Package: harfbuzz
 Version: 14.2.0
 Architecture: aarch64
@@ -232,6 +262,21 @@ SHA1: 633862f026fa5b7b91d686854464c1f4dccb89e8
 SHA256: b45555510cca3ea90f278dc42e6cac0cc2af0401c2d3ac589fc35666e4c18165
 Homepage: https://www.ladspa.org/
 Description: Linux Audio Developer's Simple Plugin API
+
+Package: libandroid-stub
+Version: 29-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 136
+Conflicts: libandroid
+Replaces: libandroid
+Filename: pool/clandro-pkg/libandroid-stub_29-1_aarch64.deb
+Size: 16324
+MD5sum: 8349a9a9de86069d1d72400dc34fd039
+SHA1: 72ed7167cb3ad8561e4d4a1cae56c9ca319fd798
+SHA256: 751eeab447a8aaa8fefd8bf78b71d3e69aebb4b58e11f5f25087c8b0a1aa97c7
+Homepage: https://android.googlesource.com/platform/frameworks/base/+/main/native/android
+Description: Stub libandroid.so for non-Android certified environment
 
 Package: libass
 Version: 0.17.4-1
@@ -397,6 +442,34 @@ SHA1: 4fe876b02b045b60349498afb42875ae9e5cc31c
 SHA256: 0c06ebc281304cc80c3355078e7b91b6854a9e7ae96507bd4a6e183ebeb49391
 Homepage: https://github.com/silnrsi/graphite
 Description: Font system for multiple languages
+
+Package: libgts
+Version: 0.7.6-3
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 600
+Depends: glib
+Filename: pool/clandro-pkg/libgts_0.7.6-3_aarch64.deb
+Size: 146152
+MD5sum: 658affb98dad900ac44b74cb700eca25
+SHA1: e17d38b91f615faa051dd667639c242f146c3e01
+SHA256: 0908afe32c5a26f820e2a48b31dbd92dd31210e50126ce4395a1cf449e55e36d
+Homepage: https://gts.sourceforge.net/
+Description: Provides useful functions to deal with 3D surfaces meshed with interconnected triangles
+
+Package: libgts-static
+Version: 0.7.6-3
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 636
+Depends: libgts (= 0.7.6-3)
+Filename: pool/clandro-pkg/libgts-static_0.7.6-3_aarch64.deb
+Size: 131940
+MD5sum: 05ed04219e052b8e6d9ef66b1495599e
+SHA1: 7c92c76a2f148e243be614a422352fc6b9e11784
+SHA256: dd01f738e2eb74ab0b96c2a30a3b308d21e2893531e37d55af929f81e9dbe50b
+Homepage: https://gts.sourceforge.net/
+Description: Static libraries for libgts
 
 Package: libjasper
 Version: 4.2.9
@@ -682,6 +755,22 @@ SHA1: 46b19ccde15342e007f13d734e39da8dc327099c
 SHA256: 9fcff1de2b91eee1632e258f619e3af3b09f4577853c43463fd082c78ac46116
 Homepage: https://www.libraw.org/
 Description: Static libraries for libraw
+
+Package: librsvg
+Version: 2.62.1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 27496
+Depends: fontconfig, freetype, gdk-pixbuf, glib, harfbuzz, libcairo, libdav1d, libpng, libxml2, pango
+Breaks: librsvg-dev
+Replaces: librsvg-dev
+Filename: pool/clandro-pkg/librsvg_2.62.1_aarch64.deb
+Size: 5346204
+MD5sum: 5b0d0eb5479feed23e340cca5ec0622e
+SHA1: 82a8c025b6af2f4de043c7d16b329f58c3d4f842
+SHA256: c079a622d21783a82a3222c6d9425f14cdc6613dc86532672f8466eb1979c3ba
+Homepage: https://wiki.gnome.org/action/show/Projects/LibRsvg
+Description: Library to render SVG files using cairo
 
 Package: libsamplerate
 Version: 0.2.2-4
@@ -1003,6 +1092,19 @@ SHA256: c5d6548edaf298279449aefb083e34331e3a87c051b64aad945eae906aa02bfd
 Homepage: https://firefox-source-docs.mozilla.org/security/nss/
 Description: Tools for NSS
 
+Package: ocl-icd
+Version: 2.3.4
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 868
+Filename: pool/clandro-pkg/ocl-icd_2.3.4_aarch64.deb
+Size: 100528
+MD5sum: 5973ed6c62e70e239e8738e8c5751e7b
+SHA1: 0f2f23fd376ffa81876995a174ce157b46296481
+SHA256: 61c4f3a0cd4368bcfecf9b99279a49e3d67b7defb3b6650b07c5c0b091046fda
+Homepage: https://github.com/OCL-dev/ocl-icd
+Description: OpenCL ICD Loader
+
 Package: openexr
 Version: 3.4.4
 Architecture: aarch64
@@ -1077,6 +1179,22 @@ SHA1: 73618c588e35251cf77e62b99dc2835970b08b02
 SHA256: d312e8848996c5b7084894098ac3e45555a55f3ddf4d7bbad64eac7356b16c2d
 Homepage: https://lib.openmpt.org/libopenmpt/
 Description: libopenmpt based command-line player for tracker music formats
+
+Package: pango
+Version: 1.57.1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 2524
+Depends: fontconfig, freetype, fribidi, glib, harfbuzz, libcairo, libx11, libxft, libxrender
+Breaks: pango-dev
+Replaces: pango-dev
+Filename: pool/clandro-pkg/pango_1.57.1_aarch64.deb
+Size: 360776
+MD5sum: 519c16949a8849cfa5fbcbffedc16d8b
+SHA1: e629fbf39dc2dac2613e7bd82025dc078381aa54
+SHA256: 9614b01bb0f6e6a111f79b24c475e6a0affc0a5b0e5eb2b684258852a74926f0
+Homepage: https://www.gtk.org/docs/architecture/pango
+Description: Library for laying out and rendering text
 
 Package: python-lxml
 Version: 6.1.0
