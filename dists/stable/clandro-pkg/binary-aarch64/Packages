@@ -72,6 +72,20 @@ SHA256: 774648ed2e93b389a7aad922ba691342379ffcefc77492c5418ade0eaa05820d
 Homepage: https://ffmpeg.org
 Description: Tools and libraries to manipulate a wide range of multimedia formats and protocols
 
+Package: fish
+Version: 4.7.1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 35244
+Depends: bc, libandroid-support, libc++, mandoc, ncurses, ncurses-utils, pcre2
+Filename: pool/clandro-pkg/fish_4.7.1_aarch64.deb
+Size: 6750664
+MD5sum: 17a3354bce3d01022aac12d3f5b8bec7
+SHA1: 5946d66e967c7d312406c5dc006b77a345daf2c5
+SHA256: 4d6785e6b24babb78055029ecd19b627801f5a4b762393fe186a0e83735cf27e
+Homepage: https://fishshell.com/
+Description: The user-friendly command line shell
+
 Package: fribidi
 Version: 1.0.16-1
 Architecture: aarch64
@@ -1168,6 +1182,64 @@ SHA256: de72f6b4323ef56c622e775aa5ea20592f745c322c813e50bc3fbea75e5f0b7c
 Homepage: https://zeromq.org/
 Description: Static libraries for libzmq
 
+Package: lua54
+Version: 5.4.8-6
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 788
+Breaks: liblua-dev, liblua54
+Replaces: liblua-dev, liblua54
+Filename: pool/clandro-pkg/lua54_5.4.8-6_aarch64.deb
+Size: 139216
+MD5sum: a6bbb40a9a6230bb39cddc6f2e8e7b91
+SHA1: 33fcaa80eab4ea7ebfa383f99e1d887e9f7796f4
+SHA256: f4e8e98f7324a530debf1a86169933a03cad6135935b47a011831dd0ca9354ad
+Homepage: https://www.lua.org/
+Description: Shared library for the Lua interpreter (v5.4.x)
+
+Package: lua54-static
+Version: 5.4.8-6
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 488
+Depends: lua54 (= 5.4.8-6)
+Filename: pool/clandro-pkg/lua54-static_5.4.8-6_aarch64.deb
+Size: 108228
+MD5sum: 4f4c6935ea55adbd9b81b77fff88a699
+SHA1: 3c9678a6270f0c31696d69d56bc782ac6ec48f65
+SHA256: 46bdb65fb05b32766e776e728154e822681d7bb310ca2a99c722d63f57c3acde
+Homepage: https://www.lua.org/
+Description: Static libraries for lua54
+
+Package: luajit
+Version: 1:2.1.1774896198+g18b087c
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1352
+Breaks: libluajit-dev, libluajit
+Replaces: libluajit-dev, libluajit
+Filename: pool/clandro-pkg/luajit_1:2.1.1774896198+g18b087c_aarch64.deb
+Size: 289360
+MD5sum: 8aa6d8083e7204aada2384c02be94dbc
+SHA1: 96fa5a742938bfee3350a667c450a30b7c8f9f7f
+SHA256: a569998c71df7b8c0aa6da0d9fc49df61ded2091b8b944a44d33a38b0acf84ed
+Homepage: https://luajit.org/
+Description: Just-In-Time Compiler for Lua
+
+Package: luajit-static
+Version: 1:2.1.1774896198+g18b087c
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 680
+Depends: luajit (= 1:2.1.1774896198+g18b087c)
+Filename: pool/clandro-pkg/luajit-static_1:2.1.1774896198+g18b087c_aarch64.deb
+Size: 221228
+MD5sum: e8f58fd8721e61094a1197203577867f
+SHA1: fe483257bca9378f1a8b93becbcf54c78c564f06
+SHA256: a7f6f0c1a1ed3a45787983ac02e7ca59856e3fbe20d93f0b5a648f91a1baffca
+Homepage: https://luajit.org/
+Description: Static libraries for luajit
+
 Package: lv2
 Version: 1.18.10-7
 Architecture: aarch64
@@ -1195,6 +1267,22 @@ SHA1: e9c545180d3d7568a36399d1eee725f0337ce873
 SHA256: 0fd76e29b5537cc8fd800b6abe259acf99577032afbb4005b211285f00050aa6
 Homepage: https://mpg123.org/
 Description: Fast console MPEG Audio Player based on libmpg123
+
+Package: neovim
+Version: 0.12.2
+Architecture: aarch64
+Maintainer: Joshua Kahn <tom@termux.dev> & @clandro
+Installed-Size: 32400
+Depends: libandroid-support, libiconv, libmsgpack, libunibilium, libuv, libvterm (>= 1:0.3-0), lua51-lpeg, luajit, luv, tree-sitter, tree-sitter-parsers, utf8proc
+Conflicts: neovim-nightly
+Breaks: neovim-nightly
+Filename: pool/clandro-pkg/neovim_0.12.2_aarch64.deb
+Size: 5903232
+MD5sum: d07f04444960af105820855857b7578d
+SHA1: 55457298ab01288a5bf7f0c284612cf16459faa2
+SHA256: 7132c8404c4d2cbcd6ec1acb8540dd6ab08b70105972af86e090b34907971a58
+Homepage: https://neovim.io/
+Description: Ambitious Vim-fork focused on extensibility and agility (nvim)
 
 Package: nss-utils
 Version: 3.123.1
@@ -1641,4 +1729,19 @@ SHA1: 1409096a6e41ad9c4d96bade7e211204b7076974
 SHA256: 60c7481eac95472b6299f1f566d78612f647bc5de332ef516679476e723bd217
 Homepage: https://www.xvid.com/
 Description: Static libraries for xvidcore
+
+Package: zsh
+Version: 5.9-9
+Architecture: aarch64
+Maintainer: Joshua Kahn <tom@termux.dev> & @clandro
+Installed-Size: 9688
+Depends: libandroid-support, libcap, ncurses, clandro-tools
+Recommends: command-not-found, zsh-completions
+Filename: pool/clandro-pkg/zsh_5.9-9_aarch64.deb
+Size: 2038828
+MD5sum: dfc448f4cf4fa936d51c3bc65ac57350
+SHA1: 67b57158f854a0ffcaa912ad873cecca2f63a702
+SHA256: e706392429567f4057aeff62bc9913ef49b4e572cdfdee6130b90fcd248efaee
+Homepage: https://www.zsh.org
+Description: Shell with lots of features
 
