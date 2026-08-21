@@ -103,6 +103,36 @@ SHA256: 28059a08f16160f4f95dd68b4df5013877f9bcae95878b0ac18b4a13aecf7761
 Homepage: https://www.freedesktop.org/wiki/Software/HarfBuzz/
 Description: Tools using the harfbuzz library
 
+Package: jbig2dec
+Version: 0.20-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 208
+Depends: libpng
+Breaks: jbig2dec-dev
+Replaces: jbig2dec-dev
+Filename: pool/clandro-pkg/jbig2dec_0.20-1_aarch64.deb
+Size: 48932
+MD5sum: 4fed642ed31d20c89233d2988bea68ad
+SHA1: e1dbaa8fed90b2ae2f5e0b712cec454dae706c9f
+SHA256: 3244d5ee6fff64352d12fd5e48233be9d611414165048c3679f8c66a80e98914
+Homepage: https://jbig2dec.com/
+Description: Decoder implementation of the JBIG2 image compression format
+
+Package: jbig2dec-static
+Version: 0.20-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 212
+Depends: jbig2dec (= 0.20-1)
+Filename: pool/clandro-pkg/jbig2dec-static_0.20-1_aarch64.deb
+Size: 44400
+MD5sum: 746e237d45b6e001554bb8af8e2f55e8
+SHA1: 15615309bddc3e6cf0d0ec89a1b8589be74040cb
+SHA256: 9ae12284290abf9fccd633a90c8a468d6a65a7b2bbbfa7862a7b326a34386e14
+Homepage: https://jbig2dec.com/
+Description: Static libraries for jbig2dec
+
 Package: libass
 Version: 0.17.4-1
 Architecture: aarch64
@@ -234,6 +264,64 @@ SHA1: 4fe876b02b045b60349498afb42875ae9e5cc31c
 SHA256: 0c06ebc281304cc80c3355078e7b91b6854a9e7ae96507bd4a6e183ebeb49391
 Homepage: https://github.com/silnrsi/graphite
 Description: Font system for multiple languages
+
+Package: libjasper
+Version: 4.2.9
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1024
+Depends: libjpeg-turbo
+Breaks: libjasper-dev
+Replaces: libjasper-dev
+Filename: pool/clandro-pkg/libjasper_4.2.9_aarch64.deb
+Size: 410828
+MD5sum: 7bec3b886a01d18156645c531eae4986
+SHA1: 10888139622f32a0e4ce4d38aa7b06cd0d04292c
+SHA256: afeafb7adb6da9652f65eeb72e6a9f8b6aef6019b98da54c533f3b8e93c93749
+Homepage: http://www.ece.uvic.ca/~frodo/jasper/
+Description: Library for manipulating JPEG-2000 files
+
+Package: libjasper-utils
+Version: 4.2.9
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 108
+Depends: libjasper (= 4.2.9)
+Filename: pool/clandro-pkg/libjasper-utils_4.2.9_aarch64.deb
+Size: 14764
+MD5sum: efab11968f3a31ae2c1e2a454644a11a
+SHA1: 86d4634375bd98b02d87f0b6020540bea2d07ff5
+SHA256: 0b3ef10e90830c3a63e70f6d3afcaea15bd6e2f3b6a94efa134e81d3d726e994
+Homepage: http://www.ece.uvic.ca/~frodo/jasper/
+Description: JPEG-2000 utilities
+
+Package: liblqr
+Version: 0.4.3-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 176
+Depends: glib
+Filename: pool/clandro-pkg/liblqr_0.4.3-1_aarch64.deb
+Size: 23532
+MD5sum: 87c799a0b32cf0a32fbd111bd17b4bc0
+SHA1: fef22e725754c28f9edd2306054c043e68e30c11
+SHA256: b01ea064d6a566f92b62996c37ddc505d204299e61165bc50cbf0562210ded44
+Homepage: https://github.com/carlobaldassi/liblqr
+Description: Provides a C/C++ API for performing non-uniform resizing of images by the seam-carving technique
+
+Package: liblqr-static
+Version: 0.4.3-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 116
+Depends: liblqr (= 0.4.3-1)
+Filename: pool/clandro-pkg/liblqr-static_0.4.3-1_aarch64.deb
+Size: 21564
+MD5sum: bda783bf4700631c1a1d660eb659f663
+SHA1: 326c32fe7cdc5a1d1117ab45cacad76835888f65
+SHA256: 87cc750fc1ad5ac618fe8d2b661815bf861facefbc911d1eba05a6573eab724e
+Homepage: https://github.com/carlobaldassi/liblqr
+Description: Static libraries for liblqr
 
 Package: libmpg123
 Version: 1.33.3
@@ -377,6 +465,48 @@ SHA256: 306249baeaa84fc6b8536ae7e2614e7a9492619d5dbee20b96c41bf64444ef96
 Homepage: https://www.pixman.org/
 Description: Low-level library for pixel manipulation
 
+Package: libraqm
+Version: 0.10.5
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 100
+Depends: freetype, harfbuzz, fribidi
+Filename: pool/clandro-pkg/libraqm_0.10.5_aarch64.deb
+Size: 11112
+MD5sum: 6cc41ff6331305b2a0d973d5053bf173
+SHA1: bd54549487d0da3706950fc66293ba1bffdaa60c
+SHA256: d08ccdc5aa6e82c3e1317dc8a3b556094692a33b8dd73a4e943d39fc58e13cad
+Homepage: https://github.com/HOST-Oman/libraqm
+Description: Raqm is a small library that encapsulates the logic for complex text layout and provides a convenient API
+
+Package: libraw
+Version: 0.22.1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 2868
+Depends: libc++, libjasper, libjpeg-turbo, littlecms, zlib
+Filename: pool/clandro-pkg/libraw_0.22.1_aarch64.deb
+Size: 419124
+MD5sum: 4f70da9b210c6e430c69a0ee8b078bda
+SHA1: ed59ad2b22c17c3424400192ae3a4c52c13d2d3a
+SHA256: 64904c275d03e3ca92c045f29ab941b35d7532be2f7616d47fc79a7b92c7121c
+Homepage: https://www.libraw.org/
+Description: Library for reading RAW files from digital cameras
+
+Package: libraw-static
+Version: 0.22.1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 3628
+Depends: libraw (= 0.22.1)
+Filename: pool/clandro-pkg/libraw-static_0.22.1_aarch64.deb
+Size: 357220
+MD5sum: ccd78900e7e33f923eee87005b421fc3
+SHA1: 46b19ccde15342e007f13d734e39da8dc327099c
+SHA256: 9fcff1de2b91eee1632e258f619e3af3b09f4577853c43463fd082c78ac46116
+Homepage: https://www.libraw.org/
+Description: Static libraries for libraw
+
 Package: libsrt
 Version: 1.5.5
 Architecture: aarch64
@@ -472,6 +602,19 @@ SHA1: d2db8dc66cc09f8519b36345e44a308e63dc7067
 SHA256: 7d4c235ee95fa03de439b7e6fd9dc47cff708d677e1964cd17efb78c188b8a0a
 Homepage: https://liburcu.org/
 Description: Static libraries for liburcu
+
+Package: libvidstab
+Version: 1.1.1-3
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1024
+Filename: pool/clandro-pkg/libvidstab_1.1.1-3_aarch64.deb
+Size: 263428
+MD5sum: b8a4105c5f0d07061acb5fd91c46e2a5
+SHA1: 73d7793646cd717ce97b3d74f358edbd3ada82ff
+SHA256: 8bfcd84c0093a14aa90b5ee9e655ec1a66b0aa8465a1157cc4bfa41cbdb862f1
+Homepage: https://github.com/georgmartius/vid.stab
+Description: video stabilization library
 
 Package: libvo-amrwbenc
 Version: 0.1.3-2
@@ -587,6 +730,35 @@ SHA1: cadce69c3e1ef78e47319dd239433da0276604c4
 SHA256: c5d6548edaf298279449aefb083e34331e3a87c051b64aad945eae906aa02bfd
 Homepage: https://firefox-source-docs.mozilla.org/security/nss/
 Description: Tools for NSS
+
+Package: openjpeg
+Version: 2.5.4
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 528
+Breaks: openjpeg-dev
+Replaces: openjpeg-dev
+Filename: pool/clandro-pkg/openjpeg_2.5.4_aarch64.deb
+Size: 150348
+MD5sum: 1ccc2aeb5cfbde4acca7774d974db917
+SHA1: dea2b6e4ae623e7a53e36e92de7658065fe83787
+SHA256: 45c275276e00577328a8d3366b7818f9a01c45ae86cabc6a62fb88d8b0eff9d0
+Homepage: https://www.openjpeg.org/
+Description: JPEG 2000 image compression library
+
+Package: openjpeg-tools
+Version: 2.5.4
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 276
+Depends: libtiff, littlecms, libpng, openjpeg (= 2.5.4)
+Filename: pool/clandro-pkg/openjpeg-tools_2.5.4_aarch64.deb
+Size: 71708
+MD5sum: 0e2d5fd54c9112c6d994c9775f629653
+SHA1: 5567bbf7a5cd16620224ad2f048690a6c54c7c0c
+SHA256: 4737a580b061d87e74f03a21211581edffc75444d4de982b79dfaa9ba1329f57
+Homepage: https://www.openjpeg.org/
+Description: Command-line tools using the JPEG 2000 library
 
 Package: openmpt123
 Version: 0.8.6
