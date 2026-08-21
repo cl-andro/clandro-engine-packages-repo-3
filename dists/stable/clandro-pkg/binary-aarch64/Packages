@@ -11,6 +11,34 @@ SHA256: 81e7e9d1428e592c28e61399c6d82ad971613112335703e3da45cf82166c485d
 Homepage: https://cmocka.org/
 Description: cmocka is an unit testing framework for C
 
+Package: djvulibre
+Version: 3.5.30
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 3600
+Depends: libc++, libjpeg-turbo, libtiff
+Filename: pool/clandro-pkg/djvulibre_3.5.30_aarch64.deb
+Size: 882024
+MD5sum: c11426d6b808ac334c46fda742c84474
+SHA1: 285fc69caebdc582afdc8e9e325d72e80544d2ec
+SHA256: bf81e43df1b5e03ca68a7fd2b2cfad494029afe0af2f8bc0ebdec5af8a479b5b
+Homepage: https://djvu.sourceforge.net/
+Description: Suite to create, manipulate and view DjVu ('déjà vu') documents
+
+Package: djvulibre-static
+Version: 3.5.30
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 3776
+Depends: djvulibre (= 3.5.30)
+Filename: pool/clandro-pkg/djvulibre-static_3.5.30_aarch64.deb
+Size: 584852
+MD5sum: 3cfbf46fbb9c67275063bddfe9e0f2dd
+SHA1: ccabde4bb990c06db1ca471dbcb054bf2254a177
+SHA256: d603a62f728568fa887abafb3c9aafdab7a9ec24cfee977433287be4b0796660
+Homepage: https://djvu.sourceforge.net/
+Description: Static libraries for djvulibre
+
 Package: dnsutils
 Version: 9.20.22
 Architecture: aarch64
@@ -103,6 +131,22 @@ SHA256: 28059a08f16160f4f95dd68b4df5013877f9bcae95878b0ac18b4a13aecf7761
 Homepage: https://www.freedesktop.org/wiki/Software/HarfBuzz/
 Description: Tools using the harfbuzz library
 
+Package: imath
+Version: 3.2.2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1040
+Depends: libc++
+Conflicts: openexr2
+Replaces: openexr2
+Filename: pool/clandro-pkg/imath_3.2.2_aarch64.deb
+Size: 120592
+MD5sum: 00af0f0942a89556b0892d6f3a733d58
+SHA1: a5e5d03c8d1ccf536a4f96fd8a76b2c9e2dbfc8c
+SHA256: 8f5a67b317d1080de92b19d1ee86a4344570f71e4774df98f9f2708fd57eaeaf
+Homepage: https://imath.readthedocs.io/
+Description: Library for vector/matrix and math operations, plus the half type
+
 Package: jbig2dec
 Version: 0.20-1
 Architecture: aarch64
@@ -132,6 +176,20 @@ SHA1: 15615309bddc3e6cf0d0ec89a1b8589be74040cb
 SHA256: 9ae12284290abf9fccd633a90c8a468d6a65a7b2bbbfa7862a7b326a34386e14
 Homepage: https://jbig2dec.com/
 Description: Static libraries for jbig2dec
+
+Package: ladspa-sdk
+Version: 1.17-3
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 168
+Depends: libc++, libsndfile
+Filename: pool/clandro-pkg/ladspa-sdk_1.17-3_aarch64.deb
+Size: 22804
+MD5sum: d8b254201efea04d7381412d1ec8f030
+SHA1: 633862f026fa5b7b91d686854464c1f4dccb89e8
+SHA256: b45555510cca3ea90f278dc42e6cac0cc2af0401c2d3ac589fc35666e4c18165
+Homepage: https://www.ladspa.org/
+Description: Linux Audio Developer's Simple Plugin API
 
 Package: libass
 Version: 0.17.4-1
@@ -507,6 +565,19 @@ SHA256: 9fcff1de2b91eee1632e258f619e3af3b09f4577853c43463fd082c78ac46116
 Homepage: https://www.libraw.org/
 Description: Static libraries for libraw
 
+Package: libsamplerate
+Version: 0.2.2-4
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1656
+Filename: pool/clandro-pkg/libsamplerate_0.2.2-4_aarch64.deb
+Size: 973148
+MD5sum: 5b40a5556f6997092f9aa021bea6ab69
+SHA1: 2161ba9f0b855ac335c284d3e6e0f3b90e725124
+SHA256: 9cc5a2cccc6621787d215aed4cb4d4d2e72872293c0d6fdffe634cb0372bc879
+Homepage: https://libsndfile.github.io/libsamplerate/
+Description: A library for performing sample rate conversion of audio data
+
 Package: libsrt
 Version: 1.5.5
 Architecture: aarch64
@@ -616,6 +687,34 @@ SHA256: 8bfcd84c0093a14aa90b5ee9e655ec1a66b0aa8465a1157cc4bfa41cbdb862f1
 Homepage: https://github.com/georgmartius/vid.stab
 Description: video stabilization library
 
+Package: libvmaf
+Version: 3.1.0-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1564
+Depends: libc++
+Filename: pool/clandro-pkg/libvmaf_3.1.0-1_aarch64.deb
+Size: 157124
+MD5sum: 5ee95abfce6146fc202a153745a0ca75
+SHA1: 3204ad33775f3714ffb30e41c3fd299d01349f82
+SHA256: 677e7dac8d717b0eb55f54a0e8b7b9d83167076ef44d6fcfb7686a7b4e7e1c02
+Homepage: https://github.com/Netflix/vmaf
+Description: A perceptual video quality assessment algorithm developed by Netflix
+
+Package: libvmaf-static
+Version: 3.1.0-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 2256
+Depends: libvmaf (= 3.1.0-1)
+Filename: pool/clandro-pkg/libvmaf-static_3.1.0-1_aarch64.deb
+Size: 368412
+MD5sum: 45e8e2d85f879be8e6cd73cefe4e0cd3
+SHA1: 77b29e2099b35dc751904b1a4635203055e991e8
+SHA256: 0fb224debbddc7bc942c74e611f7b631f506b60f208c15e281c1bd575bb4665c
+Homepage: https://github.com/Netflix/vmaf
+Description: Static libraries for libvmaf
+
 Package: libvo-amrwbenc
 Version: 0.1.3-2
 Architecture: aarch64
@@ -673,6 +772,47 @@ SHA256: 599d93e5bd1dc0b01c455e7741176bb413a0f3dffcb1b4873fbaee7d58b083b0
 Homepage: https://www.webmproject.org
 Description: Static libraries for libvpx
 
+Package: libzimg
+Version: 3.0.6
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 588
+Depends: libc++
+Filename: pool/clandro-pkg/libzimg_3.0.6_aarch64.deb
+Size: 140892
+MD5sum: 9d9548e78d2c4ec0df94c73888c3b5d2
+SHA1: d67a49b20bbec99d19949a52f8ebfab2fb32c4ca
+SHA256: 60ef5a764c5f18bbb6510143b87cd81bc3c7578bc2eb17fd068988458ea44635
+Homepage: https://github.com/sekrit-twc/zimg
+Description: Scaling, colorspace conversion, and dithering library
+
+Package: libzimg-static
+Version: 3.0.6
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1872
+Depends: libzimg (= 3.0.6)
+Filename: pool/clandro-pkg/libzimg-static_3.0.6_aarch64.deb
+Size: 215904
+MD5sum: 8c6f14fe834ab9459437e4bc62c36125
+SHA1: 832b4bafb9ac324649a3f50d5f524ad9a1465c0d
+SHA256: 3b8e8c682e6091afb18604b7a4ca4eda9a8220ca344145bb588533a52a1e94a1
+Homepage: https://github.com/sekrit-twc/zimg
+Description: Static libraries for libzimg
+
+Package: libzix
+Version: 0.6.2-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 232
+Filename: pool/clandro-pkg/libzix_0.6.2-1_aarch64.deb
+Size: 36284
+MD5sum: 4a3334512553b33cf491d4dd1de19d57
+SHA1: 59a78d28cd410648ddc6c1dd1769feb0e35bc1e7
+SHA256: bd5f634f25ba1e95105dc7aff17d7f36f70e07d7bdb6aed989b0a8a9bd6ef172
+Homepage: https://drobilla.net/category/zix
+Description: lightweight C99 portability and data structure library
+
 Package: libzmq
 Version: 4.3.5-2
 Architecture: aarch64
@@ -703,6 +843,20 @@ SHA256: 61a35d25273803fdb0494f5733c28dea946f87fe68b5fc4220a2a29ae895cfcc
 Homepage: https://zeromq.org/
 Description: Static libraries for libzmq
 
+Package: lv2
+Version: 1.18.10-7
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1460
+Depends: libxml2, libxslt, python, sord, python-pip, python-lxml
+Filename: pool/clandro-pkg/lv2_1.18.10-7_aarch64.deb
+Size: 99032
+MD5sum: e477cb83f865b1d595baca44c0f815f6
+SHA1: 21f64e6f7f8e6e9fc0ed1b723660d0bdd7da6e1b
+SHA256: cc1bc6e2b233e231b1149a2a046ba861e9021a6f2e2074384f10b6e5bcde42ee
+Homepage: https://lv2plug.in/
+Description: A plugin standard for audio systems
+
 Package: mpg123
 Version: 1.33.3
 Architecture: aarch64
@@ -730,6 +884,22 @@ SHA1: cadce69c3e1ef78e47319dd239433da0276604c4
 SHA256: c5d6548edaf298279449aefb083e34331e3a87c051b64aad945eae906aa02bfd
 Homepage: https://firefox-source-docs.mozilla.org/security/nss/
 Description: Tools for NSS
+
+Package: openexr
+Version: 3.4.4
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 4500
+Depends: imath, libc++, zlib
+Conflicts: openexr2
+Replaces: openexr2
+Filename: pool/clandro-pkg/openexr_3.4.4_aarch64.deb
+Size: 788984
+MD5sum: 0311b109015f0276c478400bfe2c3012
+SHA1: 6d6db6ca3b8dbb99b3d2fa2db94de3910136ff31
+SHA256: 22d5b19038a8a13a7f9bd68811e6ad24773c16a098b7c5be80090d6b565cfb6c
+Homepage: https://www.openexr.com/
+Description: Provides the specification and reference implementation of the EXR file format
 
 Package: openjpeg
 Version: 2.5.4
@@ -776,6 +946,139 @@ SHA256: d312e8848996c5b7084894098ac3e45555a55f3ddf4d7bbad64eac7356b16c2d
 Homepage: https://lib.openmpt.org/libopenmpt/
 Description: libopenmpt based command-line player for tracker music formats
 
+Package: python-lxml
+Version: 6.1.0
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 4376
+Depends: libxml2, libxslt, python, python-pip
+Filename: pool/clandro-pkg/python-lxml_6.1.0_aarch64.deb
+Size: 1004332
+MD5sum: a9399b011fb2dc6467cfcf1c26288a40
+SHA1: 65b0ec2312059840ab898cf0309e8cb789c776ae
+SHA256: ab4042e0d2a9e300b2d56d09c3eaf694ad15e010e0adfea5f02cb6ee63f83461
+Homepage: https://github.com/lxml/lxml
+Description: Python binding for the libxml2 and libxslt libraries
+
+Package: python-pip
+Version: 26.1.1
+Architecture: all
+Maintainer: @clandro
+Installed-Size: 7392
+Depends: python (>= 3.11.1-1)
+Recommends: clang, make, pkg-config
+Breaks: python (<< 3.11.1-1)
+Filename: pool/clandro-pkg/python-pip_26.1.1_all.deb
+Size: 1189680
+MD5sum: 107f9e806829bf249507f91781f9f6f9
+SHA1: 53a226727b27663514ddc30e0b5c4ddf21ce1a31
+SHA256: c463ed3026878b84d784fca3beaef4fab7b8e81ca1fa1407ad0254831d19d759
+Homepage: https://pip.pypa.io/
+Description: The PyPA recommended tool for installing Python packages
+
+Package: rubberband
+Version: 4.0.0-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1620
+Depends: fftw, libc++, libsamplerate, libsndfile
+Filename: pool/clandro-pkg/rubberband_4.0.0-1_aarch64.deb
+Size: 205920
+MD5sum: 43bfe530ffe5c35eb7498454174dab68
+SHA1: 209b438a6807097f56f7b01dba1c99a3a5f1fc97
+SHA256: 74714be464d33634479047498a9340a4e72e415fe8d281d92a6e2e6499d28a2b
+Homepage: https://breakfastquay.com/rubberband/
+Description: An audio time-stretching and pitch-shifting library and utility program
+
+Package: rubberband-ladspa
+Version: 4.0.0-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 368
+Depends: ladspa-sdk, rubberband (= 4.0.0-1)
+Breaks: rubberband (<< 3.1.2-1)
+Replaces: rubberband (<< 3.1.2-1)
+Filename: pool/clandro-pkg/rubberband-ladspa_4.0.0-1_aarch64.deb
+Size: 99308
+MD5sum: d69378fc9ee3603de1fa15a8f29a82ff
+SHA1: 292aab5322eb63a4c1212b892b9a891efb963016
+SHA256: 4fe6a729ef8e29dda25dee6d1f32851ac768ab326c543875ea154982debe68a5
+Homepage: https://breakfastquay.com/rubberband/
+Description: LADSPA plugin for Rubber Band
+
+Package: rubberband-lv2
+Version: 4.0.0-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 372
+Depends: lv2, rubberband (= 4.0.0-1)
+Breaks: rubberband (<< 3.1.2-1)
+Replaces: rubberband (<< 3.1.2-1)
+Filename: pool/clandro-pkg/rubberband-lv2_4.0.0-1_aarch64.deb
+Size: 99744
+MD5sum: 2e3a2bc420a6927bbd1560e2ba94b70d
+SHA1: c897a2b0c678e99f055211cf2387a195d9addc6b
+SHA256: e21b68163d9ae4a4ab8d6055e615bd48eecc3cd5e2190836153d3f1005f8ab5c
+Homepage: https://breakfastquay.com/rubberband/
+Description: LV2 plugin for Rubber Band
+
+Package: rubberband-static
+Version: 4.0.0-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 8816
+Depends: rubberband (= 4.0.0-1)
+Filename: pool/clandro-pkg/rubberband-static_4.0.0-1_aarch64.deb
+Size: 1035080
+MD5sum: 4e74bab1758fc28d0494c3629517cc90
+SHA1: 7412fba05aa95d63660f7ba76eef9a57c46089e9
+SHA256: 2cb6b992dba4050084f79b9adc2fd037f4629b060fc93673dd31f5aac8ff0c3b
+Homepage: https://breakfastquay.com/rubberband/
+Description: Static libraries for rubberband
+
+Package: rubberband-vamp
+Version: 4.0.0-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 328
+Depends: vamp-plugin-sdk, rubberband (= 4.0.0-1)
+Breaks: rubberband (<< 3.1.2-1)
+Replaces: rubberband (<< 3.1.2-1)
+Filename: pool/clandro-pkg/rubberband-vamp_4.0.0-1_aarch64.deb
+Size: 93916
+MD5sum: fb3f5a1c105e03ebc04eea7449cc8741
+SHA1: 10e381db8cd5ddd71eb1430c0c1e17caf5817445
+SHA256: 220d45b07b661d45f34c52c327dbc78ae595f8d88e2a2c8a1d5f21abd5c9a73e
+Homepage: https://breakfastquay.com/rubberband/
+Description: Vamp plugin for Rubber Band
+
+Package: serd
+Version: 0.32.8
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 224
+Filename: pool/clandro-pkg/serd_0.32.8_aarch64.deb
+Size: 42492
+MD5sum: a4d6fc6bc9548a70dd0af2f264ad8df4
+SHA1: cd0fbddae234603468841b74c2f90207ff2e3bca
+SHA256: ace93bada8a8d50482c0aaed73f7a121366fc75f1568c572a38bc9f6fcf5dfa5
+Homepage: https://drobilla.net/software/serd.html
+Description: A lightweight C library for RDF syntax
+
+Package: sord
+Version: 0.16.22
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 196
+Depends: pcre2, serd, libzix
+Filename: pool/clandro-pkg/sord_0.16.22_aarch64.deb
+Size: 27308
+MD5sum: b5e69de70c727f0d89d771a10ec107de
+SHA1: 8ae0a268ccb467cb5b6f68aa1050e8e650ac93cf
+SHA256: c8bbe14ffc73b5b0eaec50ddfaa3dbb861492470d907b7732c12285105564ad9
+Homepage: https://drobilla.net/software/sord.html
+Description: A lightweight C library for storing RDF data in memory
+
 Package: srt-tools
 Version: 1.5.5
 Architecture: aarch64
@@ -789,6 +1092,34 @@ SHA1: 774235eaeb3ac8668af8bd4846f3948cf52b34b5
 SHA256: 80875ea220a18301ba66a92641a79093aa001ed164a4c2f67fee4b2c7fbeaf2e
 Homepage: https://github.com/Haivision/srt
 Description: Command-line tools for libsrt
+
+Package: vamp-plugin-sdk
+Version: 2.10-3
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1024
+Depends: libc++, libsndfile
+Filename: pool/clandro-pkg/vamp-plugin-sdk_2.10-3_aarch64.deb
+Size: 158852
+MD5sum: a38a36b469c2f8f243ccbe63e4d290ca
+SHA1: 415fa4d8dcf5bcad07f1213faefc80381c839d2c
+SHA256: acfd97dc17f180991dd15b3804a4d477d7a9e75194e077068dcb666db9f84753
+Homepage: https://www.vamp-plugins.org/
+Description: An API for audio analysis and feature extraction plugins
+
+Package: vamp-plugin-sdk-static
+Version: 2.10-3
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1068
+Depends: vamp-plugin-sdk (= 2.10-3)
+Filename: pool/clandro-pkg/vamp-plugin-sdk-static_2.10-3_aarch64.deb
+Size: 109064
+MD5sum: 2bd4851e568d591c7a517573da86eaff
+SHA1: fcd90794a4ba1988e65f61394f358b6b33856266
+SHA256: f023daedf9b2e73610e46f958bd41145c5da1c56b4e84d3d02c88ac6c76f734b
+Homepage: https://www.vamp-plugins.org/
+Description: Static libraries for vamp-plugin-sdk
 
 Package: xmlsec
 Version: 1.3.11

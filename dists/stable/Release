@@ -5,18 +5,18 @@ Codename: stable
 Architectures: aarch64
 Components: b2b clandro-pkg
 Description: Secure Custom Package Repository for OpsPulse
-Date: Fri, 21 Aug 2026 03:54:55 +0000
+Date: Fri, 21 Aug 2026 04:17:02 +0000
 MD5Sum:
  d41d8cd98f00b204e9800998ecf8427e 0 b2b/binary-aarch64/Packages
- f704793ad7b72881fe56938e12d1b1af 29 b2b/binary-aarch64/Packages.gz
+ d6e30c5243569d857cd7ad0d21244f14 29 b2b/binary-aarch64/Packages.gz
  8dc5aea5b03dff8595f096f9e368e888 32 b2b/binary-aarch64/Packages.xz
- 432668608f621dc15eae9211a579df42 28472 clandro-pkg/binary-aarch64/Packages
- 0fc9c3e3b93434b0b1f18bd3c9b6b3e8 9603 clandro-pkg/binary-aarch64/Packages.gz
- 9277343d0f119c865863f7c50cd11136 8732 clandro-pkg/binary-aarch64/Packages.xz
+ d1596c3f30766d05c2f7637bee3455c4 39545 clandro-pkg/binary-aarch64/Packages
+ c250941cdcdf8780e781d22dd2ad8e88 13242 clandro-pkg/binary-aarch64/Packages.gz
+ 7ad377b176b139df74283c9b081f1199 11936 clandro-pkg/binary-aarch64/Packages.xz
 SHA256:
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 b2b/binary-aarch64/Packages
- af482b4af0c160b4c0b62bf462f8529a6b06bab10cc8e90039049ce616664fd0 29 b2b/binary-aarch64/Packages.gz
+ 12fe34b06c789c781202d7f9feab9ee362189440797971e6333860a05543bbc0 29 b2b/binary-aarch64/Packages.gz
  0040f94d11d0039505328a90b2ff48968db873e9e7967307631bf40ef5679275 32 b2b/binary-aarch64/Packages.xz
- 9f9258a75429eccf9a5df2f5ee74f98b6c05d65075202726125a87a8c92f3d97 28472 clandro-pkg/binary-aarch64/Packages
- 7486e57e7aaf7639637b8b76a5233b88b5cc22f1c0400eba86e2e5de4c93f358 9603 clandro-pkg/binary-aarch64/Packages.gz
- 81ddd379cec22e82ec20988fa89859452c500618be269a92697dc94c56cea713 8732 clandro-pkg/binary-aarch64/Packages.xz
+ cd2bbcf43fa23522b16c51ec3ca2136eb3ee8efca0dd21389c24658603b9a8a1 39545 clandro-pkg/binary-aarch64/Packages
+ 8936e4ef555d2694b7311b1dcb10e5ac15fdf88fc47718ce127d8ff41bafbbac 13242 clandro-pkg/binary-aarch64/Packages.gz
+ 220c690e5b52901f779521d06601b1f2a5a10eb05f8d58f3806ae6878d115e95 11936 clandro-pkg/binary-aarch64/Packages.xz
