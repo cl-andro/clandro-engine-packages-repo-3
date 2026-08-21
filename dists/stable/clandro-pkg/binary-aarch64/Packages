@@ -59,16 +59,16 @@ Package: ffmpeg
 Version: 8.1.1
 Architecture: aarch64
 Maintainer: @clandro
-Installed-Size: 36504
+Installed-Size: 36500
 Depends: fontconfig, freetype, fribidi, game-music-emu, glslang, harfbuzz, libaom, libandroid-glob, libandroid-stub, libass, libbluray, libbs2b, libbz2, libdav1d, libiconv, liblzma, libmp3lame, libopencore-amr, libopenmpt, libopus, libplacebo, librav1e, libsoxr, libsrt, libssh, libtheora, libv4l, libvidstab, libvmaf, libvo-amrwbenc, libvorbis, libvpx, libwebp, libx264, libx265, libxml2, libzimg, libzmq, littlecms, ocl-icd, openssl, rubberband, svt-av1, vulkan-loader, xvidcore, zlib
 Conflicts: libav
 Breaks: ffmpeg-dev
 Replaces: ffmpeg-dev
 Filename: pool/clandro-pkg/ffmpeg_8.1.1_aarch64.deb
 Size: 10911440
-MD5sum: ff5b7396e83e9edacdc7f848877021d1
-SHA1: 8de92a2a04f5b99ab2265194cffdbc3a45b117c5
-SHA256: 628cb86c31aa08db33ecd1da69749129da06081ea9d1479df4b252c991297b1c
+MD5sum: 50a362c5cfa16ad5e6cb378a2e1cb32e
+SHA1: dd99b0759758cfc34b31e5ff8a31ed10ee6e3097
+SHA256: 774648ed2e93b389a7aad922ba691342379ffcefc77492c5418ade0eaa05820d
 Homepage: https://ffmpeg.org
 Description: Tools and libraries to manipulate a wide range of multimedia formats and protocols
 
@@ -225,14 +225,14 @@ Version: 7.1.2.21
 Architecture: aarch64
 Maintainer: @clandro
 Installed-Size: 19772
-Depends: djvulibre, fftw, fontconfig, freetype, gdk-pixbuf, glib, graphviz, harfbuzz, imath, jbig2dec, libandroid-support, libbz2, libc++, libcairo, libheif, libjpeg-turbo, libjxl, liblqr, libltdl, liblzma, libpng, libraqm, libraw, librsvg, libtiff, libwebp, libx11, libxext, libxml2, libzip, littlecms, openexr, openjpeg, pango, zlib
+Depends: djvulibre, fftw, fontconfig, freetype, gdk-pixbuf, glib, graphviz, harfbuzz, imath, jbig2dec, libandroid-support, libbz2, libc++, libcairo, libheif, libjpeg-turbo, libjxl, liblqr, libltdl, liblzma, libpng, libraqm, libraw, librsvg, libtiff, libwebp, libx11, libxext, libxt, libxml2, libzip, littlecms, openexr, openjpeg, pango, zlib
 Breaks: imagemagick-dev, imagemagick-x
 Replaces: imagemagick-dev, imagemagick-x
 Filename: pool/clandro-pkg/imagemagick_7.1.2.21_aarch64.deb
-Size: 7866536
-MD5sum: 37c55ccb91a1d0558ec5de5c4a7f32f1
-SHA1: b8fc14ca965de482a93a59124190c1f1b0144d9c
-SHA256: 1d61a33ad4f95aa43036d95e58df6c3b4712e04575130c821e8e6a2ca4f19ac3
+Size: 7866540
+MD5sum: 109ad7cadf33d0dea59f9d4ae342c249
+SHA1: d7321ed440bc0cfda9a5ff6de2b96645f20463b8
+SHA256: 7c31f3a0d25ee67da976ee96653eb69327bac19f1330f924bd242772735deda6
 Homepage: https://www.imagemagick.org/
 Description: Suite to create, edit, compose, or convert images in a variety of formats
 
@@ -1142,15 +1142,15 @@ Package: libzmq
 Version: 4.3.5-2
 Architecture: aarch64
 Maintainer: @clandro
-Installed-Size: 1024
-Depends: libc++, libsodium
+Installed-Size: 1028
+Depends: libbsd, libc++, libsodium
 Breaks: libzmq-dev
 Replaces: libzmq-dev
 Filename: pool/clandro-pkg/libzmq_4.3.5-2_aarch64.deb
-Size: 322292
-MD5sum: 5a0426daeafaeb5f07ce23ab90dbd765
-SHA1: f2cd757f18535792c02860078415eacf1bcb41dd
-SHA256: d795eb1df34701540407e8b80c4579a11e71e6db3810bdbaa2821eafd08d0a97
+Size: 322628
+MD5sum: 8470789016870bd4e75ae487e70212cb
+SHA1: 5218bd97e06e802cdb19bdbcc696a2697fe19b81
+SHA256: fd904f2da0ea53a62f713ebf1fb89baea4cb56c0b6c58764c3a426559bd2e7dd
 Homepage: https://zeromq.org/
 Description: Fast messaging system built on sockets. C and C++ bindings. aka 0MQ, ZMQ.
 
@@ -1161,10 +1161,10 @@ Maintainer: @clandro
 Installed-Size: 3476
 Depends: libzmq (= 4.3.5-2)
 Filename: pool/clandro-pkg/libzmq-static_4.3.5-2_aarch64.deb
-Size: 366208
-MD5sum: d2083344cb526df0b9c50aa115c29fb6
-SHA1: eb59bfbd78348a44bea5e839c6564bd7b740ea29
-SHA256: 61a35d25273803fdb0494f5733c28dea946f87fe68b5fc4220a2a29ae895cfcc
+Size: 366032
+MD5sum: 469e51b09d75a4652f796b6c9f097b0d
+SHA1: 9263f447094872a40cff800f6def4fc4dd8bb70c
+SHA256: de72f6b4323ef56c622e775aa5ea20592f745c322c813e50bc3fbea75e5f0b7c
 Homepage: https://zeromq.org/
 Description: Static libraries for libzmq
 
