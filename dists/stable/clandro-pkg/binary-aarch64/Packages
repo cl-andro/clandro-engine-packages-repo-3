@@ -55,6 +55,23 @@ SHA256: bc358dbf95ecdb9503ad45c6b61b3e0254f994737a9b26aa9351380ad93f16e8
 Homepage: https://www.isc.org/bind/
 Description: Clients provided with BIND
 
+Package: ffmpeg
+Version: 8.1.1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 36504
+Depends: fontconfig, freetype, fribidi, game-music-emu, glslang, harfbuzz, libaom, libandroid-glob, libandroid-stub, libass, libbluray, libbs2b, libbz2, libdav1d, libiconv, liblzma, libmp3lame, libopencore-amr, libopenmpt, libopus, libplacebo, librav1e, libsoxr, libsrt, libssh, libtheora, libv4l, libvidstab, libvmaf, libvo-amrwbenc, libvorbis, libvpx, libwebp, libx264, libx265, libxml2, libzimg, libzmq, littlecms, ocl-icd, openssl, rubberband, svt-av1, vulkan-loader, xvidcore, zlib
+Conflicts: libav
+Breaks: ffmpeg-dev
+Replaces: ffmpeg-dev
+Filename: pool/clandro-pkg/ffmpeg_8.1.1_aarch64.deb
+Size: 10911440
+MD5sum: ff5b7396e83e9edacdc7f848877021d1
+SHA1: 8de92a2a04f5b99ab2265194cffdbc3a45b117c5
+SHA256: 628cb86c31aa08db33ecd1da69749129da06081ea9d1479df4b252c991297b1c
+Homepage: https://ffmpeg.org
+Description: Tools and libraries to manipulate a wide range of multimedia formats and protocols
+
 Package: fribidi
 Version: 1.0.16-1
 Architecture: aarch64
@@ -202,6 +219,36 @@ SHA1: e385847af01a4b418f212126c6635dbe22c3b58a
 SHA256: 28059a08f16160f4f95dd68b4df5013877f9bcae95878b0ac18b4a13aecf7761
 Homepage: https://www.freedesktop.org/wiki/Software/HarfBuzz/
 Description: Tools using the harfbuzz library
+
+Package: imagemagick
+Version: 7.1.2.21
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 19772
+Depends: djvulibre, fftw, fontconfig, freetype, gdk-pixbuf, glib, graphviz, harfbuzz, imath, jbig2dec, libandroid-support, libbz2, libc++, libcairo, libheif, libjpeg-turbo, libjxl, liblqr, libltdl, liblzma, libpng, libraqm, libraw, librsvg, libtiff, libwebp, libx11, libxext, libxml2, libzip, littlecms, openexr, openjpeg, pango, zlib
+Breaks: imagemagick-dev, imagemagick-x
+Replaces: imagemagick-dev, imagemagick-x
+Filename: pool/clandro-pkg/imagemagick_7.1.2.21_aarch64.deb
+Size: 7866536
+MD5sum: 37c55ccb91a1d0558ec5de5c4a7f32f1
+SHA1: b8fc14ca965de482a93a59124190c1f1b0144d9c
+SHA256: 1d61a33ad4f95aa43036d95e58df6c3b4712e04575130c821e8e6a2ca4f19ac3
+Homepage: https://www.imagemagick.org/
+Description: Suite to create, edit, compose, or convert images in a variety of formats
+
+Package: imagemagick-static
+Version: 7.1.2.21
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 9732
+Depends: imagemagick (= 7.1.2.21)
+Filename: pool/clandro-pkg/imagemagick-static_7.1.2.21_aarch64.deb
+Size: 1907936
+MD5sum: 2ddc2b32ac33da166a2312d23bce5a4b
+SHA1: d6da90a33cc980d3db07005595f89e8cd98dfc9b
+SHA256: 339f313a0288c6f9411992fef7bcd1bdcfcf320e8447a7b18d2fc275742b4d2e
+Homepage: https://www.imagemagick.org/
+Description: Static libraries for imagemagick
 
 Package: imath
 Version: 3.2.2
@@ -799,6 +846,22 @@ SHA256: bb895d04069cd9854c07a0c274feeda77b0df1da8acb07518d0b095099380207
 Homepage: https://github.com/Haivision/srt
 Description: Secure Reliable Transport (SRT) Protocol
 
+Package: libssh
+Version: 0.12.0-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 916
+Depends: openssl, zlib
+Breaks: libssh-dev
+Replaces: libssh-dev
+Filename: pool/clandro-pkg/libssh_0.12.0-1_aarch64.deb
+Size: 232712
+MD5sum: 776dd39db1c9730a0e68ca04bb227088
+SHA1: e51185874fe5b346de87259c7e5b771582a10041
+SHA256: 5169eae27dd11743fb9f6bae6c6a9bbd2a9343af942295a3d70b72716ae174d2
+Homepage: https://www.libssh.org/
+Description: Tiny C SSH library
+
 Package: libtheora
 Version: 1.2.0-1
 Architecture: aarch64
@@ -1104,6 +1167,19 @@ SHA1: 0f2f23fd376ffa81876995a174ce157b46296481
 SHA256: 61c4f3a0cd4368bcfecf9b99279a49e3d67b7defb3b6650b07c5c0b091046fda
 Homepage: https://github.com/OCL-dev/ocl-icd
 Description: OpenCL ICD Loader
+
+Package: opencl-headers
+Version: 2025.07.22
+Architecture: all
+Maintainer: @clandro
+Installed-Size: 528
+Filename: pool/clandro-pkg/opencl-headers_2025.07.22_all.deb
+Size: 42456
+MD5sum: 59113a39dd74605eb2c1660ae40cd9e5
+SHA1: 64385d989aefff8a88d7cb43ffd5905bfe896874
+SHA256: 3abb98cb47868e8097ef3c4e309d5e731825f382b0084e1e72f181e8fb154fee
+Homepage: https://github.com/KhronosGroup/OpenCL-Headers
+Description: Khronos OpenCL-Headers
 
 Package: openexr
 Version: 3.4.4
