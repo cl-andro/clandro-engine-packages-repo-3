@@ -889,15 +889,15 @@ Package: openexr
 Version: 3.4.4
 Architecture: aarch64
 Maintainer: @clandro
-Installed-Size: 4500
-Depends: imath, libc++, zlib
+Installed-Size: 4508
+Depends: imath, libc++, openjph, zlib
 Conflicts: openexr2
 Replaces: openexr2
 Filename: pool/clandro-pkg/openexr_3.4.4_aarch64.deb
-Size: 788984
-MD5sum: 0311b109015f0276c478400bfe2c3012
-SHA1: 6d6db6ca3b8dbb99b3d2fa2db94de3910136ff31
-SHA256: 22d5b19038a8a13a7f9bd68811e6ad24773c16a098b7c5be80090d6b565cfb6c
+Size: 789044
+MD5sum: 08a176d7bd0fba00a96febb2f92b4246
+SHA1: dbceb0507c6389f46ecd2c7fb0a17f745795b233
+SHA256: d53a82c8fdb16c48f184c14c6ed3d38afd63779fc48353b3e6a96fd4b90f7c44
 Homepage: https://www.openexr.com/
 Description: Provides the specification and reference implementation of the EXR file format
 
@@ -929,6 +929,20 @@ SHA1: 5567bbf7a5cd16620224ad2f048690a6c54c7c0c
 SHA256: 4737a580b061d87e74f03a21211581edffc75444d4de982b79dfaa9ba1329f57
 Homepage: https://www.openjpeg.org/
 Description: Command-line tools using the JPEG 2000 library
+
+Package: openjph
+Version: 0.31.0
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 740
+Depends: libc++
+Filename: pool/clandro-pkg/openjph_0.31.0_aarch64.deb
+Size: 152872
+MD5sum: 2994088f41de010cf8ccdde0abe3d730
+SHA1: 936456260b6220d4181791b83c6e0a761321364b
+SHA256: b001648fa9345fabf88491bb63583650051d9af78b5a5cfca6f4c40cc2f12709
+Homepage: https://openjph.org/
+Description: Open source implementation of High-Throughput JPEG 2000 (HTJ2K)
 
 Package: openmpt123
 Version: 0.8.6
