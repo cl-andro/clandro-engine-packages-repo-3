@@ -518,6 +518,19 @@ SHA256: dd01f738e2eb74ab0b96c2a30a3b308d21e2893531e37d55af929f81e9dbe50b
 Homepage: https://gts.sourceforge.net/
 Description: Static libraries for libgts
 
+Package: libice
+Version: 1.1.2-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 452
+Filename: pool/clandro-pkg/libice_1.1.2-1_aarch64.deb
+Size: 68724
+MD5sum: c64301773381ac792434749c2cfe6c7b
+SHA1: 3b91c0fd415b5f7f65e4af9c460296d750dd2528
+SHA256: 065ded7874ae42016b133ebfe480185c5bb8e79550c23b61eff9469c7461273d
+Homepage: https://xorg.freedesktop.org/
+Description: X11 Inter-Client Exchange library
+
 Package: libjasper
 Version: 4.2.9
 Architecture: aarch64
@@ -832,6 +845,20 @@ SHA256: 9cc5a2cccc6621787d215aed4cb4d4d2e72872293c0d6fdffe634cb0372bc879
 Homepage: https://libsndfile.github.io/libsamplerate/
 Description: A library for performing sample rate conversion of audio data
 
+Package: libsm
+Version: 1.2.6-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 352
+Depends: libice, libuuid
+Filename: pool/clandro-pkg/libsm_1.2.6-1_aarch64.deb
+Size: 41216
+MD5sum: 965a9f23e311ac24d79732788eab342c
+SHA1: fac2d3c7aa9697338460f8f1a20daa3191205151
+SHA256: bd41a35226331d9c61c1bc5d94c4939615f7bd125b9ad58878956ae68e2a669f
+Homepage: https://xorg.freedesktop.org/
+Description: X11 Session Management library
+
 Package: libsrt
 Version: 1.5.5
 Architecture: aarch64
@@ -1041,6 +1068,34 @@ SHA1: c1d97b0565b03d0aa55384818269822a81aa0c6a
 SHA256: 599d93e5bd1dc0b01c455e7741176bb413a0f3dffcb1b4873fbaee7d58b083b0
 Homepage: https://www.webmproject.org
 Description: Static libraries for libvpx
+
+Package: libxt
+Version: 1.3.1-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 3140
+Depends: libice, libsm, libx11
+Filename: pool/clandro-pkg/libxt_1.3.1-1_aarch64.deb
+Size: 484012
+MD5sum: bcfa4f9ef776f113b387392bd2a3522a
+SHA1: d6aafa54d1f570c60d9cde960daa07e8ca2803d8
+SHA256: d4e849b437f3a415c9984d0afe20c74b94d9e86f59602073c4787eb8e03c64bf
+Homepage: https://xorg.freedesktop.org/
+Description: X11 toolkit intrinsics library
+
+Package: libxt-static
+Version: 1.3.1-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 696
+Depends: libxt (= 1.3.1-1)
+Filename: pool/clandro-pkg/libxt-static_1.3.1-1_aarch64.deb
+Size: 150112
+MD5sum: 91d2a439274b1ae0dfa9437044ac5af2
+SHA1: f9322d86bfb44569a2b622ac4c1916c8ce7be0fd
+SHA256: 235f02f0b685bd807569e72f2a5820cd4d7c336f91d36e9aa2b963a94544eda6
+Homepage: https://xorg.freedesktop.org/
+Description: Static libraries for libxt
 
 Package: libzimg
 Version: 3.0.6
