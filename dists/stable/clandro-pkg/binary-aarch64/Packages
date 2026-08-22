@@ -296,6 +296,62 @@ SHA256: 8f5a67b317d1080de92b19d1ee86a4344570f71e4774df98f9f2708fd57eaeaf
 Homepage: https://imath.readthedocs.io/
 Description: Library for vector/matrix and math operations, plus the half type
 
+Package: imlib2
+Version: 1.12.6
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1328
+Depends: freetype, gdk-pixbuf, giflib, glib, libandroid-shmem, libbz2, libcairo, libheif, libid3tag, libjpeg-turbo, libjxl, liblzma, libpng, librsvg, libtiff, libwebp, libx11, libxcb, libxext, openjpeg, zlib
+Filename: pool/clandro-pkg/imlib2_1.12.6_aarch64.deb
+Size: 511100
+MD5sum: 22ed44f5b63a6609c7f2d30393ada1fe
+SHA1: fd0117fe13de9cd6a23e147e17c6dc902e593b67
+SHA256: ce92906618cb10c8722c3b21d3ec5f0b314ed4b6e9b500b11eb279417cbdefbb
+Homepage: https://sourceforge.net/projects/enlightenment/
+Description: Library that does image file loading and saving as well as rendering, manipulation, arbitrary polygon support
+
+Package: imlib2-static
+Version: 1.12.6
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 596
+Depends: imlib2 (= 1.12.6)
+Filename: pool/clandro-pkg/imlib2-static_1.12.6_aarch64.deb
+Size: 116036
+MD5sum: 13ee0b03d5727244c1a1bc0f05909967
+SHA1: 0f26c1ceda11b150254f972e86d90c66af31e483
+SHA256: 8448c3da1da23f87fc31b3545af90e019adeeda3190d60d305fb88b8b2272d54
+Homepage: https://sourceforge.net/projects/enlightenment/
+Description: Static libraries for imlib2
+
+Package: jack
+Version: 0.0.1
+Architecture: all
+Maintainer: @clandro
+Installed-Size: 4
+Depends: jack2
+Filename: pool/clandro-pkg/jack_0.0.1_all.deb
+Size: 700
+MD5sum: 6c74a91d6343fe2027423aec83da605d
+SHA1: b988b7dba4d564053c4071e8a2a7474c91214a3f
+SHA256: d41528d2bf2e20328a2a93d5cc7d517ea9a3ace4f5aa84d2d28b8dd70f0f1746
+Homepage: https://github.com/termux/termux-packages
+Description: A metapackage that provides JACK Audio Connection Kit
+
+Package: jack2
+Version: 1.9.22-2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 2140
+Depends: alsa-lib, dbus, libandroid-posix-semaphore, libdb, libexpat, libsamplerate, libopus
+Filename: pool/clandro-pkg/jack2_1.9.22-2_aarch64.deb
+Size: 374964
+MD5sum: f87c15e72bfe48a00b6fe67a2ea7c6f7
+SHA1: 74e980df04f724c78227b9187fa598c4b94a7852
+SHA256: 77b776a70ff6ab71b15cf1755b63f7c396d1b0527310332ecfb3c0fbbdf322be
+Homepage: https://jackaudio.org/
+Description: The JACK low-latency audio server
+
 Package: jbig2dec
 Version: 0.20-1
 Architecture: aarch64
@@ -455,6 +511,36 @@ SHA256: 0da42c6a2571e889b45aa970f1d247a81bfda22d1d459928193f262578f79b37
 Homepage: https://bs2b.sourceforge.net/
 Description: Static libraries for libbs2b
 
+Package: libcaca
+Version: 0.99.beta20-3
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1400
+Depends: imlib2, libc++, ncurses, zlib
+Breaks: libcaca-dev
+Replaces: libcaca-dev
+Filename: pool/clandro-pkg/libcaca_0.99.beta20-3_aarch64.deb
+Size: 247632
+MD5sum: 953ed3aa032d667928f66c218cc4ac4c
+SHA1: ec38bda6a44a55d522cabbc4d408ec5fb481ae96
+SHA256: 4214295d023f83ae7f62a4d94b09405d5f74dceef45c14fc70e8f5321a4f73b2
+Homepage: http://caca.zoy.org/wiki/libcaca
+Description: Graphics library that outputs text instead of pixels
+
+Package: libcaca-static
+Version: 0.99.beta20-3
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1524
+Depends: libcaca (= 0.99.beta20-3)
+Filename: pool/clandro-pkg/libcaca-static_0.99.beta20-3_aarch64.deb
+Size: 303680
+MD5sum: e263689eabf9b21f7e3324f7336fc2c9
+SHA1: 59869a2b83aa342eee4c782835eef7e26e2ca8b2
+SHA256: d51dc46cfea409f875b8bc9cf8b923f7a29cb986a019641fcda567de3facde87
+Homepage: http://caca.zoy.org/wiki/libcaca
+Description: Static libraries for libcaca
+
 Package: libcairo
 Version: 1.18.4-2
 Architecture: aarch64
@@ -560,6 +646,22 @@ SHA1: 3b91c0fd415b5f7f65e4af9c460296d750dd2528
 SHA256: 065ded7874ae42016b133ebfe480185c5bb8e79550c23b61eff9469c7461273d
 Homepage: https://xorg.freedesktop.org/
 Description: X11 Inter-Client Exchange library
+
+Package: libid3tag
+Version: 0.16.4
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 196
+Depends: zlib
+Breaks: libid3tag-dev
+Replaces: libid3tag-dev
+Filename: pool/clandro-pkg/libid3tag_0.16.4_aarch64.deb
+Size: 30500
+MD5sum: 2d72e2d5cb8814df04444ea218adc536
+SHA1: 2c915a9e5ce38bc0c1a707f922a74755ea214eba
+SHA256: df8326a47dfe4dc0209dbcaf1341a8459ba5f1058c6a45b49198df3c2cb48f19
+Homepage: http://www.underbit.com/products/mad/
+Description: MAD ID3 tag manipulation library
 
 Package: libjasper
 Version: 4.2.9
@@ -875,6 +977,22 @@ SHA256: 9cc5a2cccc6621787d215aed4cb4d4d2e72872293c0d6fdffe634cb0372bc879
 Homepage: https://libsndfile.github.io/libsamplerate/
 Description: A library for performing sample rate conversion of audio data
 
+Package: libsixel
+Version: 1.10.5-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 588
+Depends: gdk-pixbuf, glib, libcurl, libgd, libjpeg-turbo, libpng
+Breaks: libsixel-dev
+Replaces: libsixel-dev
+Filename: pool/clandro-pkg/libsixel_1.10.5-1_aarch64.deb
+Size: 95088
+MD5sum: f64eacf1b87903be1b4ecf20f2c562f4
+SHA1: 17a55d65e112300b8115732e310ef91a11fac8db
+SHA256: 9626aa401d5cd84a258de25495e7b402f85734e9124604be9a7056e4f66b2e99
+Homepage: https://saitoha.github.io/libsixel/
+Description: Encoder/decoder implementation for DEC SIXEL graphics
+
 Package: libsm
 Version: 1.2.6-1
 Architecture: aarch64
@@ -946,6 +1064,34 @@ SHA1: 225998928160b724c1b3d1b2c20d129db1f3245a
 SHA256: 7e5bb80b8d7393773dca1dd191edbe4c319f0581bf34f5af2821caa6b52f9f4b
 Homepage: https://www.theora.org/
 Description: Static libraries for libtheora
+
+Package: libuchardet
+Version: 0.0.8-2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 420
+Depends: libc++
+Filename: pool/clandro-pkg/libuchardet_0.0.8-2_aarch64.deb
+Size: 100160
+MD5sum: 9409eef7d4fc9736ec2815c2accd39f4
+SHA1: fc6fc13102a95cad9e7c8348c38613087f261595
+SHA256: f5168267e3efd11676ae31fab7ea08af50ba94f379d2c7bf5f5d415bf3406207
+Homepage: https://www.freedesktop.org/wiki/Software/uchardet/
+Description: An encoding detector library
+
+Package: libuchardet-static
+Version: 0.0.8-2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 380
+Depends: libuchardet (= 0.0.8-2)
+Filename: pool/clandro-pkg/libuchardet-static_0.0.8-2_aarch64.deb
+Size: 75100
+MD5sum: 5f678c591872665b9c2b2299a0d05d02
+SHA1: 28419de4838e67cd7f567e8768b4e88513d46530
+SHA256: ae908554ebbed0dc06c561862138242a97a047861fbe1e6821028ddcaab1a75a
+Homepage: https://www.freedesktop.org/wiki/Software/uchardet/
+Description: Static libraries for libuchardet
 
 Package: libudfread
 Version: 1.2.0
@@ -1297,6 +1443,20 @@ SHA256: 0fd76e29b5537cc8fd800b6abe259acf99577032afbb4005b211285f00050aa6
 Homepage: https://mpg123.org/
 Description: Fast console MPEG Audio Player based on libmpg123
 
+Package: mpv
+Version: 0.41.0-2
+Architecture: aarch64
+Maintainer: Joshua Kahn <tom@termux.dev> & @clandro
+Installed-Size: 4992
+Depends: alsa-lib, ffmpeg, jack, libandroid-glob, libandroid-support, libarchive, libass, libcaca, libiconv, libplacebo, libsixel, libuchardet, luajit, openal-soft, pulseaudio, rubberband, zlib
+Filename: pool/clandro-pkg/mpv_0.41.0-2_aarch64.deb
+Size: 1052676
+MD5sum: b81580a1b1002d1b3c930a89e9e9aec9
+SHA1: afad005e5d172a0e671c24e5c161147c72e3ffe8
+SHA256: 4229729acce65b1c3c7285159e8d672876401d7e8a41cd56b08a2108b456e9c7
+Homepage: https://mpv.io/
+Description: Command-line media player
+
 Package: neovim
 Version: 0.12.2
 Architecture: aarch64
@@ -1339,6 +1499,22 @@ SHA1: 0f2f23fd376ffa81876995a174ce157b46296481
 SHA256: 61c4f3a0cd4368bcfecf9b99279a49e3d67b7defb3b6650b07c5c0b091046fda
 Homepage: https://github.com/OCL-dev/ocl-icd
 Description: OpenCL ICD Loader
+
+Package: openal-soft
+Version: 1.25.1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 2776
+Depends: libc++
+Breaks: openal-soft-dev
+Replaces: openal-soft-dev
+Filename: pool/clandro-pkg/openal-soft_1.25.1_aarch64.deb
+Size: 704256
+MD5sum: 7133d94b300b24dc9fefbe4cb9d0e6bd
+SHA1: 1dc882c194e66397e4934d657429c11f56ec77d1
+SHA256: 093298bb7cb7c7cd32ca44c0c923a4ba2d19299b99ab1c51fcfb788f6c7f3793
+Homepage: https://openal-soft.org/
+Description: Software implementation of the OpenAL API
 
 Package: opencl-headers
 Version: 2025.07.22
@@ -1617,6 +1793,20 @@ SHA1: 774235eaeb3ac8668af8bd4846f3948cf52b34b5
 SHA256: 80875ea220a18301ba66a92641a79093aa001ed164a4c2f67fee4b2c7fbeaf2e
 Homepage: https://github.com/Haivision/srt
 Description: Command-line tools for libsrt
+
+Package: uchardet
+Version: 0.0.8-2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 52
+Depends: libuchardet (= 0.0.8-2)
+Filename: pool/clandro-pkg/uchardet_0.0.8-2_aarch64.deb
+Size: 3664
+MD5sum: 8f06c0f8c9b9668bbfd4917fbfadc556
+SHA1: 009ea86cfbbbf4937beb12e341182526c19d440f
+SHA256: 3fc81f521c5fb2cd335efba2c896c2e0c049f87d7ac206e5810f69ed6d200026
+Homepage: https://www.freedesktop.org/wiki/Software/uchardet/
+Description: An encoding detector utility
 
 Package: vamp-plugin-sdk
 Version: 2.10-3
