@@ -1,3 +1,16 @@
+Package: 7zip
+Version: 26.01
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 2996
+Filename: pool/clandro-pkg/7zip_26.01_aarch64.deb
+Size: 885364
+MD5sum: 8560ec2cb00dfcbf4c6ee53f1133d536
+SHA1: d506f70b620dc74c3be7b895e890a4ed752ce556
+SHA256: f76136aab28c8bdd7249381bfecd601d3ffdf31c0feb3f4d96c09d0ac689c759
+Homepage: https://www.7-zip.org
+Description: 7-Zip file archiver with a high compression ratio
+
 Package: cmocka
 Version: 2.0.2
 Architecture: aarch64
@@ -1821,6 +1834,20 @@ SHA1: 774235eaeb3ac8668af8bd4846f3948cf52b34b5
 SHA256: 80875ea220a18301ba66a92641a79093aa001ed164a4c2f67fee4b2c7fbeaf2e
 Homepage: https://github.com/Haivision/srt
 Description: Command-line tools for libsrt
+
+Package: taskwarrior
+Version: 3.4.2-2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 20568
+Depends: libandroid-glob, libc++, libgnutls, libuuid
+Filename: pool/clandro-pkg/taskwarrior_3.4.2-2_aarch64.deb
+Size: 5406996
+MD5sum: 3ca851230406cc8cd73043aa9d49a6c6
+SHA1: b5c7b2304a497bb5235b461cea9a0afaedccb222
+SHA256: b801e7a0b231b9b9d4cca32c524eadcbfd007030b0c5f011f81540fd8fd48920
+Homepage: https://taskwarrior.org
+Description: Utility for managing your TODO list
 
 Package: uchardet
 Version: 0.0.8-2
