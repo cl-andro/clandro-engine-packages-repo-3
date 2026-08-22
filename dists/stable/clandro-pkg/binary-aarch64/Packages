@@ -55,6 +55,22 @@ SHA256: bc358dbf95ecdb9503ad45c6b61b3e0254f994737a9b26aa9351380ad93f16e8
 Homepage: https://www.isc.org/bind/
 Description: Clients provided with BIND
 
+Package: emacs
+Version: 30.2-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 125444
+Depends: libgmp, libgnutls, libsqlite, libxml2, ncurses, tree-sitter, zlib
+Breaks: emacs-dev
+Replaces: emacs-dev
+Filename: pool/clandro-pkg/emacs_30.2-1_aarch64.deb
+Size: 44271240
+MD5sum: 6dec4feddbba61261d962da498c36be3
+SHA1: 13beeb80d955a07e7f656cd4d20f625fbfa02a73
+SHA256: f51ee8b5eeeec8bf551a5d47cbffd9b3041b8c8f546b15ab639aa27f583e4a2c
+Homepage: https://www.gnu.org/software/emacs/
+Description: Extensible, customizable text editor-and more
+
 Package: ffmpeg
 Version: 8.1.1
 Architecture: aarch64
@@ -1254,6 +1270,19 @@ SHA256: cc1bc6e2b233e231b1149a2a046ba861e9021a6f2e2074384f10b6e5bcde42ee
 Homepage: https://lv2plug.in/
 Description: A plugin standard for audio systems
 
+Package: micro
+Version: 2.0.15
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 13624
+Filename: pool/clandro-pkg/micro_2.0.15_aarch64.deb
+Size: 3666984
+MD5sum: 1b28664efe9c2723241f7b9b588ea3df
+SHA1: 0a3ca69696e7808841fd896f9ca5090d4729c24f
+SHA256: d5417be0933a01a76551079c417f2a69235e55f27cb488f1c7d6142e99c5b06f
+Homepage: https://micro-editor.github.io/
+Description: Modern and intuitive terminal-based text editor
+
 Package: mpg123
 Version: 1.33.3
 Architecture: aarch64
@@ -1729,6 +1758,20 @@ SHA1: 1409096a6e41ad9c4d96bade7e211204b7076974
 SHA256: 60c7481eac95472b6299f1f566d78612f647bc5de332ef516679476e723bd217
 Homepage: https://www.xvid.com/
 Description: Static libraries for xvidcore
+
+Package: zig
+Version: 0.16.0
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 392116
+Depends: resolv-conf
+Filename: pool/clandro-pkg/zig_0.16.0_aarch64.deb
+Size: 52941744
+MD5sum: 6172ed4f0b6b1b8124add67ce2036645
+SHA1: a0bffd8d9cb3219a7b1ed8cdcf6715e13ece221d
+SHA256: 36e340701db5342bffbef2614e6c28e8b79224f4708932efbc26396dcf8d34af
+Homepage: https://ziglang.org
+Description: General-purpose programming language and toolchain
 
 Package: zsh
 Version: 5.9-9
