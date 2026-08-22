@@ -59,15 +59,15 @@ Package: emacs
 Version: 30.2-1
 Architecture: aarch64
 Maintainer: @clandro
-Installed-Size: 125444
-Depends: libgmp, libgnutls, libsqlite, libxml2, ncurses, tree-sitter, zlib
+Installed-Size: 125440
+Depends: libandroid-execinfo, libgmp, libgnutls, libsqlite, libxml2, ncurses, tree-sitter, zlib
 Breaks: emacs-dev
 Replaces: emacs-dev
 Filename: pool/clandro-pkg/emacs_30.2-1_aarch64.deb
-Size: 44271240
-MD5sum: 6dec4feddbba61261d962da498c36be3
-SHA1: 13beeb80d955a07e7f656cd4d20f625fbfa02a73
-SHA256: f51ee8b5eeeec8bf551a5d47cbffd9b3041b8c8f546b15ab639aa27f583e4a2c
+Size: 44271260
+MD5sum: 9eff064af04c91bc166f47a2ec9dd8b7
+SHA1: 6884b1f2c885eb46e7192c9d404259faac7c2380
+SHA256: d7e5d3c2fe06a3389737743b0f4d5303bbfe876832bfb5d7343fcc850268ff72
 Homepage: https://www.gnu.org/software/emacs/
 Description: Extensible, customizable text editor-and more
 
