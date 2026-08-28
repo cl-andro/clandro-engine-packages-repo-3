@@ -890,6 +890,20 @@ SHA256: 9fa936c719c594051de5f2d5e94d591260604be3e35937d623d6e2ccf603c16e
 Homepage: https://lib.openmpt.org/libopenmpt/
 Description: Static libraries for libopenmpt
 
+Package: libpcreposix
+Version: 8.45-2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 36
+Depends: pcre (= 8.45-2)
+Filename: pool/clandro-pkg/libpcreposix_8.45-2_aarch64.deb
+Size: 3332
+MD5sum: 24c88a104f8e8573aa6371ab95cb741d
+SHA1: d6213bc0e078e43c4dde02ef84847daa0f6f89d8
+SHA256: 6999211e07fac3eabcddb66c13f6d6500b5998cf987711d9c7eded1716a9b31d
+Homepage: https://www.pcre.org
+Description: Posix-compatible runtime libraries for libpcre
+
 Package: libpixman
 Version: 0.46.4-1
 Architecture: aarch64
@@ -1514,6 +1528,20 @@ SHA256: 7132c8404c4d2cbcd6ec1acb8540dd6ab08b70105972af86e090b34907971a58
 Homepage: https://neovim.io/
 Description: Ambitious Vim-fork focused on extensibility and agility (nvim)
 
+Package: nnn
+Version: 5.2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 252
+Depends: file, findutils, readline, wget, libandroid-support, lzip
+Filename: pool/clandro-pkg/nnn_5.2_aarch64.deb
+Size: 66484
+MD5sum: 4e9a85bbab7a98baf8114f2fa9a27846
+SHA1: a2f76d2f2241814784b2c384ff5addff56f30813
+SHA256: 98fb937eb4427df3c8b44aaba4d0aefba0ec268c8c9fd69b69988796249ccd3c
+Homepage: https://github.com/jarun/nnn
+Description: Free, fast, friendly file browser
+
 Package: nss-utils
 Version: 3.123.1
 Architecture: aarch64
@@ -1527,6 +1555,19 @@ SHA1: cadce69c3e1ef78e47319dd239433da0276604c4
 SHA256: c5d6548edaf298279449aefb083e34331e3a87c051b64aad945eae906aa02bfd
 Homepage: https://firefox-source-docs.mozilla.org/security/nss/
 Description: Tools for NSS
+
+Package: nyancat
+Version: 1.5.2-1
+Architecture: aarch64
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Installed-Size: 120
+Filename: pool/clandro-pkg/nyancat_1.5.2-1_aarch64.deb
+Size: 10472
+MD5sum: 29bd2b13369329f210c184f4062fc11c
+SHA1: dfa2054bb7a641c30f8109b6d355c318a59d82bf
+SHA256: fe6244274b760933700dfacfac3e348b0f2a3dd1f51974da1aee08fe7efa2a7e
+Homepage: http://nyancat.dakko.us
+Description: Nyancat in your terminal, rendered through ANSI escape sequences.
 
 Package: ocl-icd
 Version: 2.3.4
@@ -1661,6 +1702,50 @@ SHA256: 9614b01bb0f6e6a111f79b24c475e6a0affc0a5b0e5eb2b684258852a74926f0
 Homepage: https://www.gtk.org/docs/architecture/pango
 Description: Library for laying out and rendering text
 
+Package: pcre
+Version: 8.45-2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 2720
+Depends: libc++
+Breaks: pcre-dev
+Replaces: pcre-dev
+Filename: pool/clandro-pkg/pcre_8.45-2_aarch64.deb
+Size: 649708
+MD5sum: 1613faa3c056565d7cec8826c16067c0
+SHA1: 9ed228b85f2248a8d9115f6b3ed0246d324e8866
+SHA256: 80a10b362eab284d55e50af29695fa506b94c13bba1c706523a01dcbf1b8fc75
+Homepage: https://www.pcre.org
+Description: Library implementing regular expression pattern matching using the same syntax and semantics as Perl 5
+
+Package: pcre-static
+Version: 8.45-2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 528
+Depends: pcre (= 8.45-2)
+Filename: pool/clandro-pkg/pcre-static_8.45-2_aarch64.deb
+Size: 135228
+MD5sum: 28239d9a244ad9f0b6229de85f6e8c5a
+SHA1: 86fb7c30320ba79fdb64ac61a8c82d37685e7622
+SHA256: 3fb12755d0f9fffc9c54d435bbc065980800350f42114816e95d58c26541a779
+Homepage: https://www.pcre.org
+Description: Static libraries for pcre
+
+Package: pcregrep
+Version: 8.45-2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 88
+Depends: pcre (= 8.45-2)
+Filename: pool/clandro-pkg/pcregrep_8.45-2_aarch64.deb
+Size: 24736
+MD5sum: 88e329844e15e1429256cfb1ee94452f
+SHA1: 46dffe38111224417f1c0ebee27ae8a09d1d79ac
+SHA256: bb1ab9ccb336cf61e60b44aa627205d8b380b99ec13f801407aa4ad3586567be
+Homepage: https://www.pcre.org
+Description: A grep with Perl-compatible regular expressions
+
 Package: python-lxml
 Version: 6.1.0
 Architecture: aarch64
@@ -1690,6 +1775,20 @@ SHA1: 53a226727b27663514ddc30e0b5c4ddf21ce1a31
 SHA256: c463ed3026878b84d784fca3beaef4fab7b8e81ca1fa1407ad0254831d19d759
 Homepage: https://pip.pypa.io/
 Description: The PyPA recommended tool for installing Python packages
+
+Package: rlwrap
+Version: 0.48
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 600
+Depends: ncurses, readline
+Filename: pool/clandro-pkg/rlwrap_0.48_aarch64.deb
+Size: 147768
+MD5sum: 3388094575af929c4d86ce721d1be6f1
+SHA1: 22fa8d541738a27885291988d230f8b189eae3f4
+SHA256: 44ccc78e44f242fde866179264968e956bb73fa7567560ff6d50e5973a5fa30d
+Homepage: https://github.com/hanslub42/rlwrap
+Description: Wrapper using readline to enable editing of keyboard input for commands
 
 Package: rubberband
 Version: 4.0.0-1
@@ -1780,6 +1879,20 @@ SHA256: ace93bada8a8d50482c0aaed73f7a121366fc75f1568c572a38bc9f6fcf5dfa5
 Homepage: https://drobilla.net/software/serd.html
 Description: A lightweight C library for RDF syntax
 
+Package: silversearcher-ag
+Version: 2.2.0-6
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 176
+Depends: pcre, liblzma, zlib
+Filename: pool/clandro-pkg/silversearcher-ag_2.2.0-6_aarch64.deb
+Size: 31740
+MD5sum: 42a39d8520ca62f1650bbaab16594d5b
+SHA1: 999f768f1ba0750aa10ea1caa95ee69d4e3d483c
+SHA256: a91a47315054d609350ad0e6a04fc7c1ca74758fbbecfa42c3b19b30a92a8034
+Homepage: https://geoff.greer.fm/ag/
+Description: Fast grep-like program, alternative to ack-grep
+
 Package: sord
 Version: 0.16.22
 Architecture: aarch64
@@ -1835,6 +1948,34 @@ SHA256: 80875ea220a18301ba66a92641a79093aa001ed164a4c2f67fee4b2c7fbeaf2e
 Homepage: https://github.com/Haivision/srt
 Description: Command-line tools for libsrt
 
+Package: starship
+Version: 1.25.1
+Architecture: aarch64
+Maintainer: Joshua Kahn <tom@termux.dev> & @clandro
+Installed-Size: 11192
+Suggests: nerdfix, taplo
+Filename: pool/clandro-pkg/starship_1.25.1_aarch64.deb
+Size: 3172064
+MD5sum: 88d92ee02a195024165fe08ab977f13b
+SHA1: c08a85be778b69a966160a9d12b77a9791f6b743
+SHA256: a13a9229c652afaf321966de99e1e36eaaa63228601d7b5d04b3dbec8a75eac7
+Homepage: https://starship.rs
+Description: A minimal, blazing fast, and extremely customizable prompt for any shell
+
+Package: stow
+Version: 2.4.1
+Architecture: all
+Maintainer: @clandro
+Installed-Size: 876
+Depends: perl
+Filename: pool/clandro-pkg/stow_2.4.1_all.deb
+Size: 108248
+MD5sum: 71604712cfea3ef6921c2ff54087fe31
+SHA1: 0e4c8ee01195daaee3fcff1c45f619e7ac278c01
+SHA256: d7ac7afa6de2405820763bf9489de6e8a82dd4ed3d591a004c9e7d23b2831ec5
+Homepage: https://www.gnu.org/software/stow/
+Description: Tool for managing the installation of multiple software packages into a single directory
+
 Package: taskwarrior
 Version: 3.4.2-2
 Architecture: aarch64
@@ -1848,6 +1989,35 @@ SHA1: b5c7b2304a497bb5235b461cea9a0afaedccb222
 SHA256: b801e7a0b231b9b9d4cca32c524eadcbfd007030b0c5f011f81540fd8fd48920
 Homepage: https://taskwarrior.org
 Description: Utility for managing your TODO list
+
+Package: translate-shell
+Version: 0.9.7.1-1
+Architecture: all
+Maintainer: @clandro
+Installed-Size: 312
+Depends: bash, curl, gawk, less, rlwrap
+Suggests: hunspell, mpv
+Filename: pool/clandro-pkg/translate-shell_0.9.7.1-1_all.deb
+Size: 46084
+MD5sum: 7f3d15ebc6306aff481ab29db9eeb6dc
+SHA1: 0508e25174ddfba8dc5a95fe8e326c91e9fb65b1
+SHA256: 4e3c15341ca05eef8b6d6109a25da73400963dfa33cb03724e3b5b8a30526baa
+Homepage: https://www.soimort.org/translate-shell
+Description: Command-line translator using Google Translate, Bing Translator, Yandex.Translate, etc.
+
+Package: tty-clock
+Version: 2.3-2
+Architecture: aarch64
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Installed-Size: 96
+Depends: ncurses
+Filename: pool/clandro-pkg/tty-clock_2.3-2_aarch64.deb
+Size: 8860
+MD5sum: f6bbb9a5b8fc0326eed5121786fa7da2
+SHA1: 9c7e266c5889b95d8bbf84eaf59205ff8a5a0c60
+SHA256: 9913151ab615c51a95f51925f1db42484de428ee26de4c7d3464d67460bfef91
+Homepage: https://github.com/xorg62/tty-clock
+Description: Simple terminal clock
 
 Package: uchardet
 Version: 0.0.8-2
@@ -2017,6 +2187,19 @@ SHA1: a0bffd8d9cb3219a7b1ed8cdcf6715e13ece221d
 SHA256: 36e340701db5342bffbef2614e6c28e8b79224f4708932efbc26396dcf8d34af
 Homepage: https://ziglang.org
 Description: General-purpose programming language and toolchain
+
+Package: zoxide
+Version: 0.9.9
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1084
+Filename: pool/clandro-pkg/zoxide_0.9.9_aarch64.deb
+Size: 356136
+MD5sum: 97e62ffb1e20b2011b8a2fbb708c5827
+SHA1: 9e9fa215dbff3130effa18a213e5d3be073b6d9f
+SHA256: 1b5967dca447c32a14ca85733c3d0511015590ed3409b78575a4b05f22c18502
+Homepage: https://github.com/ajeetdsouza/zoxide
+Description: A faster way to navigate your filesystem
 
 Package: zsh
 Version: 5.9-9
