@@ -1542,6 +1542,25 @@ SHA256: 98fb937eb4427df3c8b44aaba4d0aefba0ec268c8c9fd69b69988796249ccd3c
 Homepage: https://github.com/jarun/nnn
 Description: Free, fast, friendly file browser
 
+Package: nodejs-lts
+Version: 24.14.1
+Architecture: aarch64
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev> & @clandro
+Installed-Size: 46588
+Depends: libc++, openssl, c-ares, libicu, libsqlite, zlib
+Recommends: npm
+Suggests: clang, make, pkg-config, python
+Conflicts: nodejs, nodejs-current
+Breaks: nodejs-dev
+Replaces: nodejs-current, nodejs-dev
+Filename: pool/clandro-pkg/nodejs-lts_24.14.1_aarch64.deb
+Size: 9653340
+MD5sum: d22f1162a14fa74d550145cc63ba16c3
+SHA1: 605b498c441b0beb8bbe2dd2682ad7ac77af7aa2
+SHA256: f8de035233667fe0cd6cbb33240044f00298d298110f1bc110db9a6c4bc2a9b2
+Homepage: https://nodejs.org/
+Description: Open Source, cross-platform JavaScript runtime environment
+
 Package: nss-utils
 Version: 3.123.1
 Architecture: aarch64
