@@ -203,6 +203,34 @@ SHA256: 979dffe5bad3e48e5abf162be9c4133aa8ff05d0435c2625445fd4d304f0a910
 Homepage: https://github.com/KhronosGroup/glslang
 Description: OpenGL and OpenGL ES shader front end and validator
 
+Package: golang
+Version: 3:1.26.2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 213356
+Recommends: resolv-conf
+Filename: pool/clandro-pkg/golang_3:1.26.2_aarch64.deb
+Size: 34343128
+MD5sum: 29d996dd0029aba160bfc7f51fae7d91
+SHA1: 49a908b44ca3ce5f3fe10a623ebb70ef2a2e9ec6
+SHA256: a26e1478498920ef23fb633e9cc3779c42bb70d70fd2b66f91c7bcf2f7fd83a5
+Homepage: https://go.dev/
+Description: Go programming language compiler
+
+Package: golang-doc
+Version: 3:1.26.2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 472
+Depends: golang (= 3:1.26.2)
+Filename: pool/clandro-pkg/golang-doc_3:1.26.2_aarch64.deb
+Size: 93680
+MD5sum: ce407d3c7a7af905d879cc2fcb4fd3e0
+SHA1: 17c8c52c0ca89accddaeb0c6c70ca9c890376f3a
+SHA256: d66fd78700feef043538d6cf2830bb7cae0fe3be107b97b5b39ce66fefa59608
+Homepage: https://go.dev/
+Description: Go programming language - documentation
+
 Package: graphviz
 Version: 14.1.5
 Architecture: aarch64
@@ -1668,6 +1696,19 @@ SHA256: c3acd24350669ac82f2e31beee35fcef8bc2af31e6a008a76ccc2dcc8a67970d
 Homepage: https://mpv.io/
 Description: Command-line media player
 
+Package: nasm
+Version: 2.16.03-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 3288
+Filename: pool/clandro-pkg/nasm_2.16.03-1_aarch64.deb
+Size: 297768
+MD5sum: 48842cfcaac1374cc32e9cce405e9541
+SHA1: 12ee0851c208a7b307b97c3158dc6bfce628ac52
+SHA256: 68331981d90562e9e969bd690863f17bf40db979f92e007bfc10351963abfe4a
+Homepage: https://nasm.us
+Description: A cross-platform x86 assembler with an Intel-like syntax
+
 Package: neovim
 Version: 0.12.2
 Architecture: aarch64
@@ -1876,6 +1917,19 @@ SHA1: e629fbf39dc2dac2613e7bd82025dc078381aa54
 SHA256: 9614b01bb0f6e6a111f79b24c475e6a0affc0a5b0e5eb2b684258852a74926f0
 Homepage: https://www.gtk.org/docs/architecture/pango
 Description: Library for laying out and rendering text
+
+Package: patch
+Version: 2.8-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 232
+Filename: pool/clandro-pkg/patch_2.8-1_aarch64.deb
+Size: 73940
+MD5sum: 848c2505a8d2dab66fe42842e42d569d
+SHA1: 596aafafd683c355c3ba85ddec8d90a51955bd88
+SHA256: 05c8c6b6e22e83eee29aa4b6ff6f782f904858d3639f9fb9b4fc5e7b404afeda
+Homepage: https://savannah.gnu.org/projects/patch/
+Description: GNU patch which applies diff files to create patched files
 
 Package: pcre
 Version: 8.45-2
@@ -2165,6 +2219,19 @@ SHA256: b801e7a0b231b9b9d4cca32c524eadcbfd007030b0c5f011f81540fd8fd48920
 Homepage: https://taskwarrior.org
 Description: Utility for managing your TODO list
 
+Package: tcc
+Version: 1:0.9.27-p20230415-2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1480
+Filename: pool/clandro-pkg/tcc_1:0.9.27-p20230415-2_aarch64.deb
+Size: 249228
+MD5sum: d381862f21103363f009b5cd5e0f5dbf
+SHA1: fae3d9714d363ae043e79a73d62af010ec1609fa
+SHA256: 68fc26c7e8b1c5c9e3f204005069d92b216a817ddf9255b807c0a84fa21db664
+Homepage: https://bellard.org/tcc/
+Description: Tiny C Compiler
+
 Package: translate-shell
 Version: 0.9.7.1-1
 Architecture: all
@@ -2348,6 +2415,36 @@ SHA1: 1409096a6e41ad9c4d96bade7e211204b7076974
 SHA256: 60c7481eac95472b6299f1f566d78612f647bc5de332ef516679476e723bd217
 Homepage: https://www.xvid.com/
 Description: Static libraries for xvidcore
+
+Package: yasm
+Version: 1.3.0-7
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 2892
+Depends: libiconv
+Breaks: yasm-dev
+Replaces: yasm-dev
+Filename: pool/clandro-pkg/yasm_1.3.0-7_aarch64.deb
+Size: 392160
+MD5sum: 76651090d0ea9d4b026da7d55646446c
+SHA1: 22783980a8fca391f03308de6aaf3d4af96604a0
+SHA256: c703b2510ec86bbe9f575bc903f190e01d2ed3e8ea19823f108710898273659c
+Homepage: https://yasm.tortall.net/
+Description: Assembler supporting the x86 and AMD64 instruction sets
+
+Package: yasm-static
+Version: 1.3.0-7
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1420
+Depends: yasm (= 1.3.0-7)
+Filename: pool/clandro-pkg/yasm-static_1.3.0-7_aarch64.deb
+Size: 274612
+MD5sum: c1648a82b55f74409421cb85a0cef344
+SHA1: 0cbfc2f280a285840f7e44d76edcea316e6daf4c
+SHA256: 04e82109cca77cc482b6100f56887cb001b881d34f95139c311de963425aecb3
+Homepage: https://yasm.tortall.net/
+Description: Static libraries for yasm
 
 Package: zig
 Version: 0.16.0
