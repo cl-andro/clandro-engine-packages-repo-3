@@ -11,6 +11,22 @@ SHA256: f76136aab28c8bdd7249381bfecd601d3ffdf31c0feb3f4d96c09d0ac689c759
 Homepage: https://www.7-zip.org
 Description: 7-Zip file archiver with a high compression ratio
 
+Package: clang
+Version: 21.1.8-2
+Architecture: aarch64
+Maintainer: @finagolfin
+Installed-Size: 187020
+Depends: libcompiler-rt, lld, llvm, ndk-sysroot, libllvm (= 21.1.8-2)
+Breaks: libllvm (<< 16.0.0), clangd
+Replaces: libllvm (<< 16.0.0), clangd
+Filename: pool/clandro-pkg/clang_21.1.8-2_aarch64.deb
+Size: 30465864
+MD5sum: 0a7f8e0bf4873077023201f16f8c3d4e
+SHA1: dbee21b290cdea787959e165bda8799f4aefaed5
+SHA256: 770378f683fd98744b5b0140ffbf6089f4bc7610f96cd3e3508cc4720b28ca8d
+Homepage: https://clang.llvm.org/
+Description: C language frontend for LLVM
+
 Package: cmocka
 Version: 2.0.2
 Architecture: aarch64
@@ -570,6 +586,21 @@ SHA256: 120430a0e81057d8f145ba9129565e02af87403f7a719500b924d464aef54cbd
 Homepage: https://cairographics.org
 Description: Cairo 2D vector graphics library
 
+Package: libcompiler-rt
+Version: 21.1.8-2
+Architecture: aarch64
+Maintainer: @finagolfin
+Installed-Size: 34024
+Depends: libc++
+Conflicts: libllvm (<< 21.1.3), ndk-multilib (<< 23b-6)
+Filename: pool/clandro-pkg/libcompiler-rt_21.1.8-2_aarch64.deb
+Size: 2706236
+MD5sum: ddadf6156c5022d8ad4558cdd7e48858
+SHA1: 3c4165fa2cbfa9c074f54e838d72035ddf5c68ef
+SHA256: 4fb3ce9c5bf14908056b644c4e448509a3d21d4804b6170e6dfe51a5a61c0bf5
+Homepage: https://clang.llvm.org/
+Description: Compiler runtime libraries for clang
+
 Package: libglvnd
 Version: 1.7.0-1
 Architecture: aarch64
@@ -734,6 +765,37 @@ SHA1: 0a95291ca52cc2e81ab72b902689ca503bb10fec
 SHA256: 29ba36c6a18802bbb34e90e64e91d6476552c174665aab1903fb5a9246bed3e7
 Homepage: https://jpegxl.info/
 Description: Programs for manipulating JPEG XL files
+
+Package: libllvm
+Version: 21.1.8-2
+Architecture: aarch64
+Maintainer: @finagolfin
+Installed-Size: 169604
+Depends: libc++, libffi, libxml2, ncurses, zlib, zstd
+Conflicts: gcc, clang (<< 3.9.1-3)
+Breaks: libclang, libclang-dev, libllvm-dev
+Replaces: gcc, libclang, libclang-dev, libllvm-dev
+Filename: pool/clandro-pkg/libllvm_21.1.8-2_aarch64.deb
+Size: 30452416
+MD5sum: f04669924ba99a2e998f77a140107e21
+SHA1: 41285633588f8589437d6d015f7768611ec72b22
+SHA256: b16a13d46f6cc732b47e60a42f003c29dc38a7ed07e0ca7148c2f13cf08bab37
+Homepage: https://clang.llvm.org/
+Description: Modular compiler and toolchain technologies library
+
+Package: libllvm-static
+Version: 21.1.8-2
+Architecture: aarch64
+Maintainer: @finagolfin
+Installed-Size: 913160
+Depends: libllvm (= 21.1.8-2)
+Filename: pool/clandro-pkg/libllvm-static_21.1.8-2_aarch64.deb
+Size: 87682800
+MD5sum: c18738b4545d09006f3f1672b972d231
+SHA1: af9707bdad3b01f980f2768bc8427ae4eecd20cc
+SHA256: af88fb1f6cfeed69bb48d91cd5e4ab9ab7f6b1228e889e91de0d8ea2d02075fc
+Homepage: https://clang.llvm.org/
+Description: Static libraries for libllvm
 
 Package: liblqr
 Version: 0.4.3-1
@@ -932,6 +994,20 @@ SHA1: 0a83b5a2024b3df1156563f2db17d941988beb45
 SHA256: 5395b4081482c312d7cb1317f68ec9fbccdafe2802901b9bcd9930f2831a5a55
 Homepage: http://libplacebo.org/
 Description: Reusable library for GPU-accelerated video/image rendering
+
+Package: libpolly
+Version: 21.1.8-2
+Architecture: aarch64
+Maintainer: @finagolfin
+Installed-Size: 5816
+Depends: libllvm (= 21.1.8-2)
+Filename: pool/clandro-pkg/libpolly_21.1.8-2_aarch64.deb
+Size: 1225312
+MD5sum: 3458e726156dde7febd48faab8408f04
+SHA1: a197821c0af711489385b0a7d47e9cf1deb51088
+SHA256: 1ca460af961851e68f4d3bfd7e219f34503cd132606a1125063e45337d21d5ee
+Homepage: https://clang.llvm.org/
+Description: High-level loop and data-locality optimizer for clang
 
 Package: libraqm
 Version: 0.10.5
@@ -1399,6 +1475,72 @@ SHA256: de72f6b4323ef56c622e775aa5ea20592f745c322c813e50bc3fbea75e5f0b7c
 Homepage: https://zeromq.org/
 Description: Static libraries for libzmq
 
+Package: lld
+Version: 21.1.8-2
+Architecture: aarch64
+Maintainer: @finagolfin
+Installed-Size: 20324
+Depends: libllvm (= 21.1.8-2)
+Conflicts: binutils (<< 2.46.0-3), binutils-is-llvm
+Breaks: binutils (<< 2.46.0-3), binutils-is-llvm
+Replaces: binutils-is-llvm
+Filename: pool/clandro-pkg/lld_21.1.8-2_aarch64.deb
+Size: 2812644
+MD5sum: 144cb8a2e8c884eff89229031dd2d162
+SHA1: 68d9711fb2105f356712034234dcc25dd5e4afe4
+SHA256: 83f546a3b4f3c4c327cca1aad5f7f4864001f4b8c038a814bee8466402447e2a
+Homepage: https://clang.llvm.org/
+Description: LLVM-based linker
+
+Package: lldb
+Version: 21.1.8-2
+Architecture: aarch64
+Maintainer: @finagolfin
+Installed-Size: 28868
+Depends: clang, libandroid-spawn, libc++, libedit, libxml2, python, ncurses-ui-libs, libllvm (= 21.1.8-2)
+Breaks: lldb-dev, lldb-static
+Replaces: lldb-dev, lldb-static
+Filename: pool/clandro-pkg/lldb_21.1.8-2_aarch64.deb
+Size: 5796248
+MD5sum: b7c3d2b6d56858093a35b01245516096
+SHA1: c71d4bdc7384d3ae92a19d935237563991d9950b
+SHA256: 406493f64b73e3d1df05b6decd15e4545116bd977bcbe793affce0b925c32f59
+Homepage: https://clang.llvm.org/
+Description: LLVM-based debugger
+
+Package: llvm
+Version: 21.1.8-2
+Architecture: aarch64
+Maintainer: @finagolfin
+Installed-Size: 70788
+Depends: libllvm (= 21.1.8-2)
+Conflicts: binutils (<< 2.46.0-3), binutils-is-llvm
+Breaks: binutils (<< 2.46.0-3), binutils-is-llvm, libllvm (<< 11.0.0-1)
+Replaces: binutils-is-llvm, libllvm (<< 11.0.0-1)
+Filename: pool/clandro-pkg/llvm_21.1.8-2_aarch64.deb
+Size: 14812380
+MD5sum: 25c90f32a8eda28f07d5cead84cbf1d1
+SHA1: de196e93b7f22e758fe7939e64996190bbd88ef2
+SHA256: 4edd0c7424d9c7dbdf32e7f2cc43df198eac04d7a132acff48b14bacdb4ceeb2
+Homepage: https://clang.llvm.org/
+Description: LLVM modular compiler and toolchain executables
+
+Package: llvm-tools
+Version: 21.1.8-2
+Architecture: aarch64
+Maintainer: @finagolfin
+Installed-Size: 14016
+Depends: libc++, ncurses, zlib, zstd
+Breaks: libllvm (<< 16.0.0)
+Replaces: libllvm (<< 16.0.0)
+Filename: pool/clandro-pkg/llvm-tools_21.1.8-2_aarch64.deb
+Size: 2475296
+MD5sum: 67040b5930da2dfbb33c5b42e2490cc4
+SHA1: e4e5bbfe566994a7196b5a970a10ed2efff06300
+SHA256: f894e28adeac4ad6125e5c9c9ccfa9f12a56d1174520b1905fc5690d7e650900
+Homepage: https://clang.llvm.org/
+Description: LLVM Development Tools
+
 Package: lua54
 Version: 5.4.8-6
 Architecture: aarch64
@@ -1483,6 +1625,20 @@ SHA1: 0a3ca69696e7808841fd896f9ca5090d4729c24f
 SHA256: d5417be0933a01a76551079c417f2a69235e55f27cb488f1c7d6142e99c5b06f
 Homepage: https://micro-editor.github.io/
 Description: Modern and intuitive terminal-based text editor
+
+Package: mlir
+Version: 21.1.8-2
+Architecture: aarch64
+Maintainer: @finagolfin
+Installed-Size: 269700
+Depends: libc++, ncurses, libllvm (= 21.1.8-2)
+Filename: pool/clandro-pkg/mlir_21.1.8-2_aarch64.deb
+Size: 29746112
+MD5sum: 7d491c2fde71851f28a78c1b0f214e93
+SHA1: a1b0791e500a312d92b55fc48316890c82d97b69
+SHA256: 9522436ee04d43f0f3c15f5af690abef80a8c7bdb1e47a84132d724b096d4928
+Homepage: https://clang.llvm.org/
+Description: A Multi-Level Intermediate Representation for compilers from LLVM
 
 Package: mpg123
 Version: 1.33.3
